@@ -7,7 +7,7 @@ const productSchema = new mongoose.Schema({
     category: String,
     sizes: [String],
     colors: [String],
-    availability: String, // "In Stock" or "Out of Stock"
+    availability: String,
     images: {
         primary: String,
         others: [String],

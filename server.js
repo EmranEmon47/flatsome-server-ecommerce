@@ -10,7 +10,7 @@ const app = express();
 app.use(express.json());
 
 app.get('/', (req, res) => {
-    res.send('API is running...');
+    res.send('Test API is running...');
 });
 
 app.use('/api/upload', uploadRoutes);
