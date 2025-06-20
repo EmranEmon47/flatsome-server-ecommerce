@@ -1,0 +1,1472 @@
+[
+  {
+    "id": "p001",
+    "name": "Classic White T-Shirt",
+    "description": "A classic white t-shirt made from organic cotton, perfect for everyday wear.",
+    "category": "women",
+    "subcategory": "t-shirts",
+    "price": 29.99,
+    "availability": "In Stock",
+    "material": "100% Organic Cotton",
+    "images": {
+      "primary": "https://res.cloudinary.com/dr38dtcs5/image/upload/v1750444415/beautiful-smiling-brunette-girl-pointing-fingers-your-logo-showing-something-center_oksi8t.jpg",
+      "additional": [
+        "https://res.cloudinary.com/dr38dtcs5/image/upload/v1750183160/product1_xgwu25.jpg",
+        "https://res.cloudinary.com/dr38dtcs5/image/upload/v1750183152/product3_hnys7a.jpg"
+      ]
+    },
+    "variants": [
+      {
+        "size": "S",
+        "colors": [
+          {
+            "name": "White",
+            "hex": "#FFFFFF",
+            "stock": 10
+          },
+          {
+            "name": "Red",
+            "hex": "#FF0000",
+            "stock": 5
+          }
+        ]
+      },
+      {
+        "size": "M",
+        "colors": [
+          {
+            "name": "White",
+            "hex": "#FFFFFF",
+            "stock": 8
+          },
+          {
+            "name": "Purple",
+            "hex": "#800080",
+            "stock": 4
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "p002",
+    "name": "Men's Black Sneakers",
+    "description": "Durable and stylish black sneakers for everyday use or sports.",
+    "category": "men",
+    "subcategory": "shoes",
+    "price": 69.99,
+    "availability": "In Stock",
+    "material": "Leather & Rubber Sole",
+    "images": {
+      "primary": "https://res.cloudinary.com/dr38dtcs5/image/upload/v1750444989/men-shoes_osvgvd.jpg",
+      "additional": [
+        "https://res.cloudinary.com/dr38dtcs5/image/upload/v1750444277/fashion-shoes-sneakers_t4xmsx.jpg",
+        "https://res.cloudinary.com/dr38dtcs5/image/upload/v1750180796/cld-sample-5.jpg"
+      ]
+    },
+    "variants": [
+      {
+        "size": 8,
+        "colors": [
+          {
+            "name": "Black",
+            "hex": "#000000",
+            "stock": 6
+          },
+          {
+            "name": "Red",
+            "hex": "#FF0000",
+            "stock": 2
+          }
+        ]
+      },
+      {
+        "size": 9,
+        "colors": [
+          {
+            "name": "Black",
+            "hex": "#000000",
+            "stock": 10
+          },
+          {
+            "name": "White",
+            "hex": "#FFFFFF",
+            "stock": 3
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "p003",
+    "name": "Demo Product 3",
+    "description": "Sample fashion product for seeding the database.",
+    "category": "women",
+    "subcategory": "jeans",
+    "price": 41.5,
+    "availability": "In Stock",
+    "material": "Cotton Blend",
+    "images": {
+      "primary": "https://res.cloudinary.com/dr38dtcs5/image/upload/v1750183160/product1_xgwu25.jpg",
+      "additional": [
+        "https://res.cloudinary.com/dr38dtcs5/image/upload/v1750183143/product2_dbyvdx.jpg",
+        "https://res.cloudinary.com/dr38dtcs5/image/upload/v1750183147/product4_zhy5sg.jpg"
+      ]
+    },
+    "variants": [
+      {
+        "size": 8,
+        "colors": [
+          {
+            "name": "White",
+            "hex": "#FFFFFF",
+            "stock": 10
+          },
+          {
+            "name": "Red",
+            "hex": "#FF0000",
+            "stock": 5
+          }
+        ]
+      },
+      {
+        "size": 9,
+        "colors": [
+          {
+            "name": "Black",
+            "hex": "#000000",
+            "stock": 6
+          },
+          {
+            "name": "Blue",
+            "hex": "#0000FF",
+            "stock": 3
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "p004",
+    "name": "Demo Product 4",
+    "description": "Sample fashion product for seeding the database.",
+    "category": "men",
+    "subcategory": "tops",
+    "price": 47.0,
+    "availability": "Out of Stock",
+    "material": "Cotton Blend",
+    "images": {
+      "primary": "https://res.cloudinary.com/dr38dtcs5/image/upload/v1750183160/product1_xgwu25.jpg",
+      "additional": [
+        "https://res.cloudinary.com/dr38dtcs5/image/upload/v1750183143/product2_dbyvdx.jpg",
+        "https://res.cloudinary.com/dr38dtcs5/image/upload/v1750183147/product4_zhy5sg.jpg"
+      ]
+    },
+    "variants": [
+      {
+        "size": "S",
+        "colors": [
+          {
+            "name": "White",
+            "hex": "#FFFFFF",
+            "stock": 10
+          },
+          {
+            "name": "Red",
+            "hex": "#FF0000",
+            "stock": 5
+          }
+        ]
+      },
+      {
+        "size": "M",
+        "colors": [
+          {
+            "name": "Black",
+            "hex": "#000000",
+            "stock": 6
+          },
+          {
+            "name": "Blue",
+            "hex": "#0000FF",
+            "stock": 3
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "p005",
+    "name": "Demo Product 5",
+    "description": "Sample fashion product for seeding the database.",
+    "category": "child",
+    "subcategory": "jeans",
+    "price": 52.5,
+    "availability": "In Stock",
+    "material": "Cotton Blend",
+    "images": {
+      "primary": "https://res.cloudinary.com/dr38dtcs5/image/upload/v1750183160/product1_xgwu25.jpg",
+      "additional": [
+        "https://res.cloudinary.com/dr38dtcs5/image/upload/v1750183143/product2_dbyvdx.jpg",
+        "https://res.cloudinary.com/dr38dtcs5/image/upload/v1750183147/product4_zhy5sg.jpg"
+      ]
+    },
+    "variants": [
+      {
+        "size": 8,
+        "colors": [
+          {
+            "name": "White",
+            "hex": "#FFFFFF",
+            "stock": 10
+          },
+          {
+            "name": "Red",
+            "hex": "#FF0000",
+            "stock": 5
+          }
+        ]
+      },
+      {
+        "size": 9,
+        "colors": [
+          {
+            "name": "Black",
+            "hex": "#000000",
+            "stock": 6
+          },
+          {
+            "name": "Blue",
+            "hex": "#0000FF",
+            "stock": 3
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "p006",
+    "name": "Demo Product 6",
+    "description": "Sample fashion product for seeding the database.",
+    "category": "women",
+    "subcategory": "tops",
+    "price": 58.0,
+    "availability": "In Stock",
+    "material": "Cotton Blend",
+    "images": {
+      "primary": "https://res.cloudinary.com/dr38dtcs5/image/upload/v1750183160/product1_xgwu25.jpg",
+      "additional": [
+        "https://res.cloudinary.com/dr38dtcs5/image/upload/v1750183143/product2_dbyvdx.jpg",
+        "https://res.cloudinary.com/dr38dtcs5/image/upload/v1750183147/product4_zhy5sg.jpg"
+      ]
+    },
+    "variants": [
+      {
+        "size": "S",
+        "colors": [
+          {
+            "name": "White",
+            "hex": "#FFFFFF",
+            "stock": 10
+          },
+          {
+            "name": "Red",
+            "hex": "#FF0000",
+            "stock": 5
+          }
+        ]
+      },
+      {
+        "size": "M",
+        "colors": [
+          {
+            "name": "Black",
+            "hex": "#000000",
+            "stock": 6
+          },
+          {
+            "name": "Blue",
+            "hex": "#0000FF",
+            "stock": 3
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "p007",
+    "name": "Demo Product 7",
+    "description": "Sample fashion product for seeding the database.",
+    "category": "men",
+    "subcategory": "jeans",
+    "price": 63.5,
+    "availability": "In Stock",
+    "material": "Cotton Blend",
+    "images": {
+      "primary": "https://res.cloudinary.com/dr38dtcs5/image/upload/v1750183160/product1_xgwu25.jpg",
+      "additional": [
+        "https://res.cloudinary.com/dr38dtcs5/image/upload/v1750183143/product2_dbyvdx.jpg",
+        "https://res.cloudinary.com/dr38dtcs5/image/upload/v1750183147/product4_zhy5sg.jpg"
+      ]
+    },
+    "variants": [
+      {
+        "size": 8,
+        "colors": [
+          {
+            "name": "White",
+            "hex": "#FFFFFF",
+            "stock": 10
+          },
+          {
+            "name": "Red",
+            "hex": "#FF0000",
+            "stock": 5
+          }
+        ]
+      },
+      {
+        "size": 9,
+        "colors": [
+          {
+            "name": "Black",
+            "hex": "#000000",
+            "stock": 6
+          },
+          {
+            "name": "Blue",
+            "hex": "#0000FF",
+            "stock": 3
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "p008",
+    "name": "Demo Product 8",
+    "description": "Sample fashion product for seeding the database.",
+    "category": "child",
+    "subcategory": "tops",
+    "price": 69.0,
+    "availability": "Out of Stock",
+    "material": "Cotton Blend",
+    "images": {
+      "primary": "https://res.cloudinary.com/dr38dtcs5/image/upload/v1750183160/product1_xgwu25.jpg",
+      "additional": [
+        "https://res.cloudinary.com/dr38dtcs5/image/upload/v1750183143/product2_dbyvdx.jpg",
+        "https://res.cloudinary.com/dr38dtcs5/image/upload/v1750183147/product4_zhy5sg.jpg"
+      ]
+    },
+    "variants": [
+      {
+        "size": "S",
+        "colors": [
+          {
+            "name": "White",
+            "hex": "#FFFFFF",
+            "stock": 10
+          },
+          {
+            "name": "Red",
+            "hex": "#FF0000",
+            "stock": 5
+          }
+        ]
+      },
+      {
+        "size": "M",
+        "colors": [
+          {
+            "name": "Black",
+            "hex": "#000000",
+            "stock": 6
+          },
+          {
+            "name": "Blue",
+            "hex": "#0000FF",
+            "stock": 3
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "p009",
+    "name": "Demo Product 9",
+    "description": "Sample fashion product for seeding the database.",
+    "category": "women",
+    "subcategory": "jeans",
+    "price": 74.5,
+    "availability": "In Stock",
+    "material": "Cotton Blend",
+    "images": {
+      "primary": "https://res.cloudinary.com/dr38dtcs5/image/upload/v1750183160/product1_xgwu25.jpg",
+      "additional": [
+        "https://res.cloudinary.com/dr38dtcs5/image/upload/v1750183143/product2_dbyvdx.jpg",
+        "https://res.cloudinary.com/dr38dtcs5/image/upload/v1750183147/product4_zhy5sg.jpg"
+      ]
+    },
+    "variants": [
+      {
+        "size": 8,
+        "colors": [
+          {
+            "name": "White",
+            "hex": "#FFFFFF",
+            "stock": 10
+          },
+          {
+            "name": "Red",
+            "hex": "#FF0000",
+            "stock": 5
+          }
+        ]
+      },
+      {
+        "size": 9,
+        "colors": [
+          {
+            "name": "Black",
+            "hex": "#000000",
+            "stock": 6
+          },
+          {
+            "name": "Blue",
+            "hex": "#0000FF",
+            "stock": 3
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "p010",
+    "name": "Demo Product 10",
+    "description": "Sample fashion product for seeding the database.",
+    "category": "men",
+    "subcategory": "tops",
+    "price": 80.0,
+    "availability": "In Stock",
+    "material": "Cotton Blend",
+    "images": {
+      "primary": "https://res.cloudinary.com/dr38dtcs5/image/upload/v1750183160/product1_xgwu25.jpg",
+      "additional": [
+        "https://res.cloudinary.com/dr38dtcs5/image/upload/v1750183143/product2_dbyvdx.jpg",
+        "https://res.cloudinary.com/dr38dtcs5/image/upload/v1750183147/product4_zhy5sg.jpg"
+      ]
+    },
+    "variants": [
+      {
+        "size": "S",
+        "colors": [
+          {
+            "name": "White",
+            "hex": "#FFFFFF",
+            "stock": 10
+          },
+          {
+            "name": "Red",
+            "hex": "#FF0000",
+            "stock": 5
+          }
+        ]
+      },
+      {
+        "size": "M",
+        "colors": [
+          {
+            "name": "Black",
+            "hex": "#000000",
+            "stock": 6
+          },
+          {
+            "name": "Blue",
+            "hex": "#0000FF",
+            "stock": 3
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "p011",
+    "name": "Demo Product 11",
+    "description": "Sample fashion product for seeding the database.",
+    "category": "child",
+    "subcategory": "jeans",
+    "price": 85.5,
+    "availability": "In Stock",
+    "material": "Cotton Blend",
+    "images": {
+      "primary": "https://res.cloudinary.com/dr38dtcs5/image/upload/v1750183160/product1_xgwu25.jpg",
+      "additional": [
+        "https://res.cloudinary.com/dr38dtcs5/image/upload/v1750183143/product2_dbyvdx.jpg",
+        "https://res.cloudinary.com/dr38dtcs5/image/upload/v1750183147/product4_zhy5sg.jpg"
+      ]
+    },
+    "variants": [
+      {
+        "size": 8,
+        "colors": [
+          {
+            "name": "White",
+            "hex": "#FFFFFF",
+            "stock": 10
+          },
+          {
+            "name": "Red",
+            "hex": "#FF0000",
+            "stock": 5
+          }
+        ]
+      },
+      {
+        "size": 9,
+        "colors": [
+          {
+            "name": "Black",
+            "hex": "#000000",
+            "stock": 6
+          },
+          {
+            "name": "Blue",
+            "hex": "#0000FF",
+            "stock": 3
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "p012",
+    "name": "Demo Product 12",
+    "description": "Sample fashion product for seeding the database.",
+    "category": "women",
+    "subcategory": "tops",
+    "price": 91.0,
+    "availability": "Out of Stock",
+    "material": "Cotton Blend",
+    "images": {
+      "primary": "https://res.cloudinary.com/dr38dtcs5/image/upload/v1750183160/product1_xgwu25.jpg",
+      "additional": [
+        "https://res.cloudinary.com/dr38dtcs5/image/upload/v1750183143/product2_dbyvdx.jpg",
+        "https://res.cloudinary.com/dr38dtcs5/image/upload/v1750183147/product4_zhy5sg.jpg"
+      ]
+    },
+    "variants": [
+      {
+        "size": "S",
+        "colors": [
+          {
+            "name": "White",
+            "hex": "#FFFFFF",
+            "stock": 10
+          },
+          {
+            "name": "Red",
+            "hex": "#FF0000",
+            "stock": 5
+          }
+        ]
+      },
+      {
+        "size": "M",
+        "colors": [
+          {
+            "name": "Black",
+            "hex": "#000000",
+            "stock": 6
+          },
+          {
+            "name": "Blue",
+            "hex": "#0000FF",
+            "stock": 3
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "p013",
+    "name": "Demo Product 13",
+    "description": "Sample fashion product for seeding the database.",
+    "category": "men",
+    "subcategory": "jeans",
+    "price": 96.5,
+    "availability": "In Stock",
+    "material": "Cotton Blend",
+    "images": {
+      "primary": "https://res.cloudinary.com/dr38dtcs5/image/upload/v1750183160/product1_xgwu25.jpg",
+      "additional": [
+        "https://res.cloudinary.com/dr38dtcs5/image/upload/v1750183143/product2_dbyvdx.jpg",
+        "https://res.cloudinary.com/dr38dtcs5/image/upload/v1750183147/product4_zhy5sg.jpg"
+      ]
+    },
+    "variants": [
+      {
+        "size": 8,
+        "colors": [
+          {
+            "name": "White",
+            "hex": "#FFFFFF",
+            "stock": 10
+          },
+          {
+            "name": "Red",
+            "hex": "#FF0000",
+            "stock": 5
+          }
+        ]
+      },
+      {
+        "size": 9,
+        "colors": [
+          {
+            "name": "Black",
+            "hex": "#000000",
+            "stock": 6
+          },
+          {
+            "name": "Blue",
+            "hex": "#0000FF",
+            "stock": 3
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "p014",
+    "name": "Demo Product 14",
+    "description": "Sample fashion product for seeding the database.",
+    "category": "child",
+    "subcategory": "tops",
+    "price": 102.0,
+    "availability": "In Stock",
+    "material": "Cotton Blend",
+    "images": {
+      "primary": "https://res.cloudinary.com/dr38dtcs5/image/upload/v1750183160/product1_xgwu25.jpg",
+      "additional": [
+        "https://res.cloudinary.com/dr38dtcs5/image/upload/v1750183143/product2_dbyvdx.jpg",
+        "https://res.cloudinary.com/dr38dtcs5/image/upload/v1750183147/product4_zhy5sg.jpg"
+      ]
+    },
+    "variants": [
+      {
+        "size": "S",
+        "colors": [
+          {
+            "name": "White",
+            "hex": "#FFFFFF",
+            "stock": 10
+          },
+          {
+            "name": "Red",
+            "hex": "#FF0000",
+            "stock": 5
+          }
+        ]
+      },
+      {
+        "size": "M",
+        "colors": [
+          {
+            "name": "Black",
+            "hex": "#000000",
+            "stock": 6
+          },
+          {
+            "name": "Blue",
+            "hex": "#0000FF",
+            "stock": 3
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "p015",
+    "name": "Demo Product 15",
+    "description": "Sample fashion product for seeding the database.",
+    "category": "women",
+    "subcategory": "jeans",
+    "price": 107.5,
+    "availability": "In Stock",
+    "material": "Cotton Blend",
+    "images": {
+      "primary": "https://res.cloudinary.com/dr38dtcs5/image/upload/v1750183160/product1_xgwu25.jpg",
+      "additional": [
+        "https://res.cloudinary.com/dr38dtcs5/image/upload/v1750183143/product2_dbyvdx.jpg",
+        "https://res.cloudinary.com/dr38dtcs5/image/upload/v1750183147/product4_zhy5sg.jpg"
+      ]
+    },
+    "variants": [
+      {
+        "size": 8,
+        "colors": [
+          {
+            "name": "White",
+            "hex": "#FFFFFF",
+            "stock": 10
+          },
+          {
+            "name": "Red",
+            "hex": "#FF0000",
+            "stock": 5
+          }
+        ]
+      },
+      {
+        "size": 9,
+        "colors": [
+          {
+            "name": "Black",
+            "hex": "#000000",
+            "stock": 6
+          },
+          {
+            "name": "Blue",
+            "hex": "#0000FF",
+            "stock": 3
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "p016",
+    "name": "Demo Product 16",
+    "description": "Sample fashion product for seeding the database.",
+    "category": "men",
+    "subcategory": "tops",
+    "price": 113.0,
+    "availability": "Out of Stock",
+    "material": "Cotton Blend",
+    "images": {
+      "primary": "https://res.cloudinary.com/dr38dtcs5/image/upload/v1750183160/product1_xgwu25.jpg",
+      "additional": [
+        "https://res.cloudinary.com/dr38dtcs5/image/upload/v1750183143/product2_dbyvdx.jpg",
+        "https://res.cloudinary.com/dr38dtcs5/image/upload/v1750183147/product4_zhy5sg.jpg"
+      ]
+    },
+    "variants": [
+      {
+        "size": "S",
+        "colors": [
+          {
+            "name": "White",
+            "hex": "#FFFFFF",
+            "stock": 10
+          },
+          {
+            "name": "Red",
+            "hex": "#FF0000",
+            "stock": 5
+          }
+        ]
+      },
+      {
+        "size": "M",
+        "colors": [
+          {
+            "name": "Black",
+            "hex": "#000000",
+            "stock": 6
+          },
+          {
+            "name": "Blue",
+            "hex": "#0000FF",
+            "stock": 3
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "p017",
+    "name": "Demo Product 17",
+    "description": "Sample fashion product for seeding the database.",
+    "category": "child",
+    "subcategory": "jeans",
+    "price": 118.5,
+    "availability": "In Stock",
+    "material": "Cotton Blend",
+    "images": {
+      "primary": "https://res.cloudinary.com/dr38dtcs5/image/upload/v1750183160/product1_xgwu25.jpg",
+      "additional": [
+        "https://res.cloudinary.com/dr38dtcs5/image/upload/v1750183143/product2_dbyvdx.jpg",
+        "https://res.cloudinary.com/dr38dtcs5/image/upload/v1750183147/product4_zhy5sg.jpg"
+      ]
+    },
+    "variants": [
+      {
+        "size": 8,
+        "colors": [
+          {
+            "name": "White",
+            "hex": "#FFFFFF",
+            "stock": 10
+          },
+          {
+            "name": "Red",
+            "hex": "#FF0000",
+            "stock": 5
+          }
+        ]
+      },
+      {
+        "size": 9,
+        "colors": [
+          {
+            "name": "Black",
+            "hex": "#000000",
+            "stock": 6
+          },
+          {
+            "name": "Blue",
+            "hex": "#0000FF",
+            "stock": 3
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "p018",
+    "name": "Demo Product 18",
+    "description": "Sample fashion product for seeding the database.",
+    "category": "women",
+    "subcategory": "tops",
+    "price": 124.0,
+    "availability": "In Stock",
+    "material": "Cotton Blend",
+    "images": {
+      "primary": "https://res.cloudinary.com/dr38dtcs5/image/upload/v1750183160/product1_xgwu25.jpg",
+      "additional": [
+        "https://res.cloudinary.com/dr38dtcs5/image/upload/v1750183143/product2_dbyvdx.jpg",
+        "https://res.cloudinary.com/dr38dtcs5/image/upload/v1750183147/product4_zhy5sg.jpg"
+      ]
+    },
+    "variants": [
+      {
+        "size": "S",
+        "colors": [
+          {
+            "name": "White",
+            "hex": "#FFFFFF",
+            "stock": 10
+          },
+          {
+            "name": "Red",
+            "hex": "#FF0000",
+            "stock": 5
+          }
+        ]
+      },
+      {
+        "size": "M",
+        "colors": [
+          {
+            "name": "Black",
+            "hex": "#000000",
+            "stock": 6
+          },
+          {
+            "name": "Blue",
+            "hex": "#0000FF",
+            "stock": 3
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "p019",
+    "name": "Demo Product 19",
+    "description": "Sample fashion product for seeding the database.",
+    "category": "men",
+    "subcategory": "jeans",
+    "price": 129.5,
+    "availability": "In Stock",
+    "material": "Cotton Blend",
+    "images": {
+      "primary": "https://res.cloudinary.com/dr38dtcs5/image/upload/v1750183160/product1_xgwu25.jpg",
+      "additional": [
+        "https://res.cloudinary.com/dr38dtcs5/image/upload/v1750183143/product2_dbyvdx.jpg",
+        "https://res.cloudinary.com/dr38dtcs5/image/upload/v1750183147/product4_zhy5sg.jpg"
+      ]
+    },
+    "variants": [
+      {
+        "size": 8,
+        "colors": [
+          {
+            "name": "White",
+            "hex": "#FFFFFF",
+            "stock": 10
+          },
+          {
+            "name": "Red",
+            "hex": "#FF0000",
+            "stock": 5
+          }
+        ]
+      },
+      {
+        "size": 9,
+        "colors": [
+          {
+            "name": "Black",
+            "hex": "#000000",
+            "stock": 6
+          },
+          {
+            "name": "Blue",
+            "hex": "#0000FF",
+            "stock": 3
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "p020",
+    "name": "Demo Product 20",
+    "description": "Sample fashion product for seeding the database.",
+    "category": "child",
+    "subcategory": "tops",
+    "price": 135.0,
+    "availability": "Out of Stock",
+    "material": "Cotton Blend",
+    "images": {
+      "primary": "https://res.cloudinary.com/dr38dtcs5/image/upload/v1750183160/product1_xgwu25.jpg",
+      "additional": [
+        "https://res.cloudinary.com/dr38dtcs5/image/upload/v1750183143/product2_dbyvdx.jpg",
+        "https://res.cloudinary.com/dr38dtcs5/image/upload/v1750183147/product4_zhy5sg.jpg"
+      ]
+    },
+    "variants": [
+      {
+        "size": "S",
+        "colors": [
+          {
+            "name": "White",
+            "hex": "#FFFFFF",
+            "stock": 10
+          },
+          {
+            "name": "Red",
+            "hex": "#FF0000",
+            "stock": 5
+          }
+        ]
+      },
+      {
+        "size": "M",
+        "colors": [
+          {
+            "name": "Black",
+            "hex": "#000000",
+            "stock": 6
+          },
+          {
+            "name": "Blue",
+            "hex": "#0000FF",
+            "stock": 3
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "p021",
+    "name": "Demo Product 21",
+    "description": "Sample fashion product for seeding the database.",
+    "category": "women",
+    "subcategory": "jeans",
+    "price": 140.5,
+    "availability": "In Stock",
+    "material": "Cotton Blend",
+    "images": {
+      "primary": "https://res.cloudinary.com/dr38dtcs5/image/upload/v1750183160/product1_xgwu25.jpg",
+      "additional": [
+        "https://res.cloudinary.com/dr38dtcs5/image/upload/v1750183143/product2_dbyvdx.jpg",
+        "https://res.cloudinary.com/dr38dtcs5/image/upload/v1750183147/product4_zhy5sg.jpg"
+      ]
+    },
+    "variants": [
+      {
+        "size": 8,
+        "colors": [
+          {
+            "name": "White",
+            "hex": "#FFFFFF",
+            "stock": 10
+          },
+          {
+            "name": "Red",
+            "hex": "#FF0000",
+            "stock": 5
+          }
+        ]
+      },
+      {
+        "size": 9,
+        "colors": [
+          {
+            "name": "Black",
+            "hex": "#000000",
+            "stock": 6
+          },
+          {
+            "name": "Blue",
+            "hex": "#0000FF",
+            "stock": 3
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "p022",
+    "name": "Demo Product 22",
+    "description": "Sample fashion product for seeding the database.",
+    "category": "men",
+    "subcategory": "tops",
+    "price": 146.0,
+    "availability": "In Stock",
+    "material": "Cotton Blend",
+    "images": {
+      "primary": "https://res.cloudinary.com/dr38dtcs5/image/upload/v1750183160/product1_xgwu25.jpg",
+      "additional": [
+        "https://res.cloudinary.com/dr38dtcs5/image/upload/v1750183143/product2_dbyvdx.jpg",
+        "https://res.cloudinary.com/dr38dtcs5/image/upload/v1750183147/product4_zhy5sg.jpg"
+      ]
+    },
+    "variants": [
+      {
+        "size": "S",
+        "colors": [
+          {
+            "name": "White",
+            "hex": "#FFFFFF",
+            "stock": 10
+          },
+          {
+            "name": "Red",
+            "hex": "#FF0000",
+            "stock": 5
+          }
+        ]
+      },
+      {
+        "size": "M",
+        "colors": [
+          {
+            "name": "Black",
+            "hex": "#000000",
+            "stock": 6
+          },
+          {
+            "name": "Blue",
+            "hex": "#0000FF",
+            "stock": 3
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "p023",
+    "name": "Demo Product 23",
+    "description": "Sample fashion product for seeding the database.",
+    "category": "child",
+    "subcategory": "jeans",
+    "price": 151.5,
+    "availability": "In Stock",
+    "material": "Cotton Blend",
+    "images": {
+      "primary": "https://res.cloudinary.com/dr38dtcs5/image/upload/v1750183160/product1_xgwu25.jpg",
+      "additional": [
+        "https://res.cloudinary.com/dr38dtcs5/image/upload/v1750183143/product2_dbyvdx.jpg",
+        "https://res.cloudinary.com/dr38dtcs5/image/upload/v1750183147/product4_zhy5sg.jpg"
+      ]
+    },
+    "variants": [
+      {
+        "size": 8,
+        "colors": [
+          {
+            "name": "White",
+            "hex": "#FFFFFF",
+            "stock": 10
+          },
+          {
+            "name": "Red",
+            "hex": "#FF0000",
+            "stock": 5
+          }
+        ]
+      },
+      {
+        "size": 9,
+        "colors": [
+          {
+            "name": "Black",
+            "hex": "#000000",
+            "stock": 6
+          },
+          {
+            "name": "Blue",
+            "hex": "#0000FF",
+            "stock": 3
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "p024",
+    "name": "Demo Product 24",
+    "description": "Sample fashion product for seeding the database.",
+    "category": "women",
+    "subcategory": "tops",
+    "price": 157.0,
+    "availability": "Out of Stock",
+    "material": "Cotton Blend",
+    "images": {
+      "primary": "https://res.cloudinary.com/dr38dtcs5/image/upload/v1750183160/product1_xgwu25.jpg",
+      "additional": [
+        "https://res.cloudinary.com/dr38dtcs5/image/upload/v1750183143/product2_dbyvdx.jpg",
+        "https://res.cloudinary.com/dr38dtcs5/image/upload/v1750183147/product4_zhy5sg.jpg"
+      ]
+    },
+    "variants": [
+      {
+        "size": "S",
+        "colors": [
+          {
+            "name": "White",
+            "hex": "#FFFFFF",
+            "stock": 10
+          },
+          {
+            "name": "Red",
+            "hex": "#FF0000",
+            "stock": 5
+          }
+        ]
+      },
+      {
+        "size": "M",
+        "colors": [
+          {
+            "name": "Black",
+            "hex": "#000000",
+            "stock": 6
+          },
+          {
+            "name": "Blue",
+            "hex": "#0000FF",
+            "stock": 3
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "p025",
+    "name": "Demo Product 25",
+    "description": "Sample fashion product for seeding the database.",
+    "category": "men",
+    "subcategory": "jeans",
+    "price": 162.5,
+    "availability": "In Stock",
+    "material": "Cotton Blend",
+    "images": {
+      "primary": "https://res.cloudinary.com/dr38dtcs5/image/upload/v1750183160/product1_xgwu25.jpg",
+      "additional": [
+        "https://res.cloudinary.com/dr38dtcs5/image/upload/v1750183143/product2_dbyvdx.jpg",
+        "https://res.cloudinary.com/dr38dtcs5/image/upload/v1750183147/product4_zhy5sg.jpg"
+      ]
+    },
+    "variants": [
+      {
+        "size": 8,
+        "colors": [
+          {
+            "name": "White",
+            "hex": "#FFFFFF",
+            "stock": 10
+          },
+          {
+            "name": "Red",
+            "hex": "#FF0000",
+            "stock": 5
+          }
+        ]
+      },
+      {
+        "size": 9,
+        "colors": [
+          {
+            "name": "Black",
+            "hex": "#000000",
+            "stock": 6
+          },
+          {
+            "name": "Blue",
+            "hex": "#0000FF",
+            "stock": 3
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "p026",
+    "name": "Demo Product 26",
+    "description": "Sample fashion product for seeding the database.",
+    "category": "child",
+    "subcategory": "tops",
+    "price": 168.0,
+    "availability": "In Stock",
+    "material": "Cotton Blend",
+    "images": {
+      "primary": "https://res.cloudinary.com/dr38dtcs5/image/upload/v1750183160/product1_xgwu25.jpg",
+      "additional": [
+        "https://res.cloudinary.com/dr38dtcs5/image/upload/v1750183143/product2_dbyvdx.jpg",
+        "https://res.cloudinary.com/dr38dtcs5/image/upload/v1750183147/product4_zhy5sg.jpg"
+      ]
+    },
+    "variants": [
+      {
+        "size": "S",
+        "colors": [
+          {
+            "name": "White",
+            "hex": "#FFFFFF",
+            "stock": 10
+          },
+          {
+            "name": "Red",
+            "hex": "#FF0000",
+            "stock": 5
+          }
+        ]
+      },
+      {
+        "size": "M",
+        "colors": [
+          {
+            "name": "Black",
+            "hex": "#000000",
+            "stock": 6
+          },
+          {
+            "name": "Blue",
+            "hex": "#0000FF",
+            "stock": 3
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "p027",
+    "name": "Demo Product 27",
+    "description": "Sample fashion product for seeding the database.",
+    "category": "women",
+    "subcategory": "jeans",
+    "price": 173.5,
+    "availability": "In Stock",
+    "material": "Cotton Blend",
+    "images": {
+      "primary": "https://res.cloudinary.com/dr38dtcs5/image/upload/v1750183160/product1_xgwu25.jpg",
+      "additional": [
+        "https://res.cloudinary.com/dr38dtcs5/image/upload/v1750183143/product2_dbyvdx.jpg",
+        "https://res.cloudinary.com/dr38dtcs5/image/upload/v1750183147/product4_zhy5sg.jpg"
+      ]
+    },
+    "variants": [
+      {
+        "size": 8,
+        "colors": [
+          {
+            "name": "White",
+            "hex": "#FFFFFF",
+            "stock": 10
+          },
+          {
+            "name": "Red",
+            "hex": "#FF0000",
+            "stock": 5
+          }
+        ]
+      },
+      {
+        "size": 9,
+        "colors": [
+          {
+            "name": "Black",
+            "hex": "#000000",
+            "stock": 6
+          },
+          {
+            "name": "Blue",
+            "hex": "#0000FF",
+            "stock": 3
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "p028",
+    "name": "Demo Product 28",
+    "description": "Sample fashion product for seeding the database.",
+    "category": "men",
+    "subcategory": "tops",
+    "price": 179.0,
+    "availability": "Out of Stock",
+    "material": "Cotton Blend",
+    "images": {
+      "primary": "https://res.cloudinary.com/dr38dtcs5/image/upload/v1750183160/product1_xgwu25.jpg",
+      "additional": [
+        "https://res.cloudinary.com/dr38dtcs5/image/upload/v1750183143/product2_dbyvdx.jpg",
+        "https://res.cloudinary.com/dr38dtcs5/image/upload/v1750183147/product4_zhy5sg.jpg"
+      ]
+    },
+    "variants": [
+      {
+        "size": "S",
+        "colors": [
+          {
+            "name": "White",
+            "hex": "#FFFFFF",
+            "stock": 10
+          },
+          {
+            "name": "Red",
+            "hex": "#FF0000",
+            "stock": 5
+          }
+        ]
+      },
+      {
+        "size": "M",
+        "colors": [
+          {
+            "name": "Black",
+            "hex": "#000000",
+            "stock": 6
+          },
+          {
+            "name": "Blue",
+            "hex": "#0000FF",
+            "stock": 3
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "p029",
+    "name": "Demo Product 29",
+    "description": "Sample fashion product for seeding the database.",
+    "category": "child",
+    "subcategory": "jeans",
+    "price": 184.5,
+    "availability": "In Stock",
+    "material": "Cotton Blend",
+    "images": {
+      "primary": "https://res.cloudinary.com/dr38dtcs5/image/upload/v1750183160/product1_xgwu25.jpg",
+      "additional": [
+        "https://res.cloudinary.com/dr38dtcs5/image/upload/v1750183143/product2_dbyvdx.jpg",
+        "https://res.cloudinary.com/dr38dtcs5/image/upload/v1750183147/product4_zhy5sg.jpg"
+      ]
+    },
+    "variants": [
+      {
+        "size": 8,
+        "colors": [
+          {
+            "name": "White",
+            "hex": "#FFFFFF",
+            "stock": 10
+          },
+          {
+            "name": "Red",
+            "hex": "#FF0000",
+            "stock": 5
+          }
+        ]
+      },
+      {
+        "size": 9,
+        "colors": [
+          {
+            "name": "Black",
+            "hex": "#000000",
+            "stock": 6
+          },
+          {
+            "name": "Blue",
+            "hex": "#0000FF",
+            "stock": 3
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "p030",
+    "name": "Demo Product 30",
+    "description": "Sample fashion product for seeding the database.",
+    "category": "women",
+    "subcategory": "tops",
+    "price": 190.0,
+    "availability": "In Stock",
+    "material": "Cotton Blend",
+    "images": {
+      "primary": "https://res.cloudinary.com/dr38dtcs5/image/upload/v1750183160/product1_xgwu25.jpg",
+      "additional": [
+        "https://res.cloudinary.com/dr38dtcs5/image/upload/v1750183143/product2_dbyvdx.jpg",
+        "https://res.cloudinary.com/dr38dtcs5/image/upload/v1750183147/product4_zhy5sg.jpg"
+      ]
+    },
+    "variants": [
+      {
+        "size": "S",
+        "colors": [
+          {
+            "name": "White",
+            "hex": "#FFFFFF",
+            "stock": 10
+          },
+          {
+            "name": "Red",
+            "hex": "#FF0000",
+            "stock": 5
+          }
+        ]
+      },
+      {
+        "size": "M",
+        "colors": [
+          {
+            "name": "Black",
+            "hex": "#000000",
+            "stock": 6
+          },
+          {
+            "name": "Blue",
+            "hex": "#0000FF",
+            "stock": 3
+          }
+        ]
+      }
+    ]
+  }
+]

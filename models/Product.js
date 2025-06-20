@@ -1,48 +1,34 @@
 import mongoose from "mongoose";
 
-// Variant Schema for each size+color variant
 const variantSchema = new mongoose.Schema({
-    size: String, // Shoe: '8', '9', '10' | T-shirt: 'S', 'M', 'L'
-    color: {
-        name: String,   // e.g., 'Black', 'Red'
-        hex: String,    // e.g., '#000000'
-    },
-    stock: {
-        type: Number,
-        default: 0,
-    },
+    size: String, // e.g., 'S', 'M', 'L' or '8', '9', '10'
+    color: String, // e.g., 'Red'
+    hexCode: String, // e.g., '#FF0000'
+    stock: { type: Number, default: 0 },
 });
 
 const productSchema = new mongoose.Schema(
     {
-        name: {
+        name: { type: String, required: true },
+        description: { type: String, required: true },
+        price: { type: Number, required: true },
+
+        category: {
             type: String,
             required: true,
-        },
-        description: String,
-        price: {
-            type: Number,
-            required: true,
-        },
-        mainCategory: {
-            type: String,
             enum: ["Men", "Women", "Child"],
-            required: true,
         },
-        subCategory: {
-            type: String,
-            enum: ["Tops", "T-Shirts", "Jackets", "Shoes", "Sweaters", "Others"],
-            required: true,
-        },
-        materialInfo: String, // e.g., "100% cotton", "Leather upper"
 
-        variants: [variantSchema], // List of size+color+stock combos
-
-        primaryImage: {
+        subcategory: {
             type: String,
             required: true,
+            enum: ["T-Shirts", "Jeans", "Shoes", "Jackets", "Tops"],
         },
-        additionalImages: [String],
+
+        material: {
+            type: String,
+            default: "Cotton",
+        },
 
         availability: {
             type: String,
@@ -50,24 +36,28 @@ const productSchema = new mongoose.Schema(
             default: "In Stock",
         },
 
-        createdAt: {
-            type: Date,
-            default: Date.now,
+        totalStock: {
+            type: Number,
+            required: true,
         },
+
+        primaryImage: {
+            type: String,
+            required: true,
+        },
+
+        extraImages: {
+            type: [String],
+            validate: [(val) => val.length <= 3, "Maximum of 3 extra images allowed"],
+        },
+
+        variants: [variantSchema],
     },
-    { timestamps: true }
+    {
+        timestamps: true,
+    }
 );
 
-// Optional: virtual property to compute availability from stock
-productSchema.virtual("totalStock").get(function () {
-    return this.variants.reduce((sum, v) => sum + v.stock, 0);
-});
-
-productSchema.pre("save", function (next) {
-    const total = this.variants.reduce((sum, v) => sum + v.stock, 0);
-    this.availability = total > 0 ? "In Stock" : "Out of Stock";
-    next();
-});
-
 const Product = mongoose.model("Product", productSchema);
+
 export default Product;

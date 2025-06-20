@@ -1,0 +1,2309 @@
+[
+  {
+    "id": "7cec078a-94cc-44d1-ac37-acec3b6b7ba8",
+    "name": "Women's Top 1",
+    "description": "High-quality tops for everyday fashion.",
+    "price": 229.25,
+    "category": "Women",
+    "subcategory": "Tops",
+    "primaryImage": "https://res.cloudinary.com/dr38dtcs5/image/upload/v1750183152/product3_hnys7a.jpg",
+    "additionalImages": [
+      "https://res.cloudinary.com/dr38dtcs5/image/upload/v1750183160/product1_xgwu25.jpg",
+      "https://res.cloudinary.com/dr38dtcs5/image/upload/v1750444560/full-length-shocked-woman-denim-clothes-holding-her-head-white-wall_rdrmfe.jpg"
+    ],
+    "availability": "In Stock",
+    "totalStock": 60,
+    "variants": [
+      {
+        "size": "S",
+        "colors": [
+          {
+            "name": "Red",
+            "hex": "#FF0000",
+            "stock": 5
+          },
+          {
+            "name": "Blue",
+            "hex": "#0000FF",
+            "stock": 10
+          }
+        ]
+      },
+      {
+        "size": "M",
+        "colors": [
+          {
+            "name": "Red",
+            "hex": "#FF0000",
+            "stock": 5
+          },
+          {
+            "name": "Blue",
+            "hex": "#0000FF",
+            "stock": 10
+          }
+        ]
+      },
+      {
+        "size": "L",
+        "colors": [
+          {
+            "name": "Red",
+            "hex": "#FF0000",
+            "stock": 5
+          },
+          {
+            "name": "Blue",
+            "hex": "#0000FF",
+            "stock": 10
+          }
+        ]
+      },
+      {
+        "size": "XL",
+        "colors": [
+          {
+            "name": "Red",
+            "hex": "#FF0000",
+            "stock": 5
+          },
+          {
+            "name": "Blue",
+            "hex": "#0000FF",
+            "stock": 10
+          }
+        ]
+      }
+    ],
+    "materialInfo": "Cotton"
+  },
+  {
+    "id": "95d0f395-c6d4-4bfd-8ea7-953129bfe29f",
+    "name": "Women's Top 2",
+    "description": "High-quality tops for everyday fashion.",
+    "price": 186.5,
+    "category": "Women",
+    "subcategory": "Tops",
+    "primaryImage": "https://res.cloudinary.com/dr38dtcs5/image/upload/v1750183152/product3_hnys7a.jpg",
+    "additionalImages": [
+      "https://res.cloudinary.com/dr38dtcs5/image/upload/v1750183160/product1_xgwu25.jpg",
+      "https://res.cloudinary.com/dr38dtcs5/image/upload/v1750444560/full-length-shocked-woman-denim-clothes-holding-her-head-white-wall_rdrmfe.jpg"
+    ],
+    "availability": "In Stock",
+    "totalStock": 60,
+    "variants": [
+      {
+        "size": "S",
+        "colors": [
+          {
+            "name": "Red",
+            "hex": "#FF0000",
+            "stock": 5
+          },
+          {
+            "name": "Blue",
+            "hex": "#0000FF",
+            "stock": 10
+          }
+        ]
+      },
+      {
+        "size": "M",
+        "colors": [
+          {
+            "name": "Red",
+            "hex": "#FF0000",
+            "stock": 5
+          },
+          {
+            "name": "Blue",
+            "hex": "#0000FF",
+            "stock": 10
+          }
+        ]
+      },
+      {
+        "size": "L",
+        "colors": [
+          {
+            "name": "Red",
+            "hex": "#FF0000",
+            "stock": 5
+          },
+          {
+            "name": "Blue",
+            "hex": "#0000FF",
+            "stock": 10
+          }
+        ]
+      },
+      {
+        "size": "XL",
+        "colors": [
+          {
+            "name": "Red",
+            "hex": "#FF0000",
+            "stock": 5
+          },
+          {
+            "name": "Blue",
+            "hex": "#0000FF",
+            "stock": 10
+          }
+        ]
+      }
+    ],
+    "materialInfo": "Cotton"
+  },
+  {
+    "id": "6285d573-bd31-4717-adc0-3942b6aa857c",
+    "name": "Women's Top 3",
+    "description": "High-quality tops for everyday fashion.",
+    "price": 338.5,
+    "category": "Women",
+    "subcategory": "Tops",
+    "primaryImage": "https://res.cloudinary.com/dr38dtcs5/image/upload/v1750183152/product3_hnys7a.jpg",
+    "additionalImages": [
+      "https://res.cloudinary.com/dr38dtcs5/image/upload/v1750183160/product1_xgwu25.jpg",
+      "https://res.cloudinary.com/dr38dtcs5/image/upload/v1750444560/full-length-shocked-woman-denim-clothes-holding-her-head-white-wall_rdrmfe.jpg"
+    ],
+    "availability": "In Stock",
+    "totalStock": 60,
+    "variants": [
+      {
+        "size": "S",
+        "colors": [
+          {
+            "name": "Red",
+            "hex": "#FF0000",
+            "stock": 5
+          },
+          {
+            "name": "Blue",
+            "hex": "#0000FF",
+            "stock": 10
+          }
+        ]
+      },
+      {
+        "size": "M",
+        "colors": [
+          {
+            "name": "Red",
+            "hex": "#FF0000",
+            "stock": 5
+          },
+          {
+            "name": "Blue",
+            "hex": "#0000FF",
+            "stock": 10
+          }
+        ]
+      },
+      {
+        "size": "L",
+        "colors": [
+          {
+            "name": "Red",
+            "hex": "#FF0000",
+            "stock": 5
+          },
+          {
+            "name": "Blue",
+            "hex": "#0000FF",
+            "stock": 10
+          }
+        ]
+      },
+      {
+        "size": "XL",
+        "colors": [
+          {
+            "name": "Red",
+            "hex": "#FF0000",
+            "stock": 5
+          },
+          {
+            "name": "Blue",
+            "hex": "#0000FF",
+            "stock": 10
+          }
+        ]
+      }
+    ],
+    "materialInfo": "Cotton"
+  },
+  {
+    "id": "1edc7db7-63a9-42a0-a332-878f5f782154",
+    "name": "Women's Jeans 1",
+    "description": "High-quality jeans for everyday fashion.",
+    "price": 200.75,
+    "category": "Women",
+    "subcategory": "Jeans",
+    "primaryImage": "https://res.cloudinary.com/dr38dtcs5/image/upload/v1750183143/product2_dbyvdx.jpg",
+    "additionalImages": [
+      "https://res.cloudinary.com/dr38dtcs5/image/upload/v1750444635/portrait-beautiful-caucasian-smiling-brunette-woman-model-white-blouse-summer-stylish-blue-jeans-with-flowers_fok97t.jpg"
+    ],
+    "availability": "In Stock",
+    "totalStock": 60,
+    "variants": [
+      {
+        "size": "S",
+        "colors": [
+          {
+            "name": "Red",
+            "hex": "#FF0000",
+            "stock": 5
+          },
+          {
+            "name": "Blue",
+            "hex": "#0000FF",
+            "stock": 10
+          }
+        ]
+      },
+      {
+        "size": "M",
+        "colors": [
+          {
+            "name": "Red",
+            "hex": "#FF0000",
+            "stock": 5
+          },
+          {
+            "name": "Blue",
+            "hex": "#0000FF",
+            "stock": 10
+          }
+        ]
+      },
+      {
+        "size": "L",
+        "colors": [
+          {
+            "name": "Red",
+            "hex": "#FF0000",
+            "stock": 5
+          },
+          {
+            "name": "Blue",
+            "hex": "#0000FF",
+            "stock": 10
+          }
+        ]
+      },
+      {
+        "size": "XL",
+        "colors": [
+          {
+            "name": "Red",
+            "hex": "#FF0000",
+            "stock": 5
+          },
+          {
+            "name": "Blue",
+            "hex": "#0000FF",
+            "stock": 10
+          }
+        ]
+      }
+    ],
+    "materialInfo": "Cotton"
+  },
+  {
+    "id": "76a4097e-86bc-460c-aa66-d64a50296d8f",
+    "name": "Women's Jeans 2",
+    "description": "High-quality jeans for everyday fashion.",
+    "price": 210.25,
+    "category": "Women",
+    "subcategory": "Jeans",
+    "primaryImage": "https://res.cloudinary.com/dr38dtcs5/image/upload/v1750183143/product2_dbyvdx.jpg",
+    "additionalImages": [
+      "https://res.cloudinary.com/dr38dtcs5/image/upload/v1750444635/portrait-beautiful-caucasian-smiling-brunette-woman-model-white-blouse-summer-stylish-blue-jeans-with-flowers_fok97t.jpg"
+    ],
+    "availability": "In Stock",
+    "totalStock": 60,
+    "variants": [
+      {
+        "size": "S",
+        "colors": [
+          {
+            "name": "Red",
+            "hex": "#FF0000",
+            "stock": 5
+          },
+          {
+            "name": "Blue",
+            "hex": "#0000FF",
+            "stock": 10
+          }
+        ]
+      },
+      {
+        "size": "M",
+        "colors": [
+          {
+            "name": "Red",
+            "hex": "#FF0000",
+            "stock": 5
+          },
+          {
+            "name": "Blue",
+            "hex": "#0000FF",
+            "stock": 10
+          }
+        ]
+      },
+      {
+        "size": "L",
+        "colors": [
+          {
+            "name": "Red",
+            "hex": "#FF0000",
+            "stock": 5
+          },
+          {
+            "name": "Blue",
+            "hex": "#0000FF",
+            "stock": 10
+          }
+        ]
+      },
+      {
+        "size": "XL",
+        "colors": [
+          {
+            "name": "Red",
+            "hex": "#FF0000",
+            "stock": 5
+          },
+          {
+            "name": "Blue",
+            "hex": "#0000FF",
+            "stock": 10
+          }
+        ]
+      }
+    ],
+    "materialInfo": "Cotton"
+  },
+  {
+    "id": "51ba671f-b66f-4e40-8bed-8297c4fe521e",
+    "name": "Women's Jeans 3",
+    "description": "High-quality jeans for everyday fashion.",
+    "price": 77.25,
+    "category": "Women",
+    "subcategory": "Jeans",
+    "primaryImage": "https://res.cloudinary.com/dr38dtcs5/image/upload/v1750183143/product2_dbyvdx.jpg",
+    "additionalImages": [
+      "https://res.cloudinary.com/dr38dtcs5/image/upload/v1750444635/portrait-beautiful-caucasian-smiling-brunette-woman-model-white-blouse-summer-stylish-blue-jeans-with-flowers_fok97t.jpg"
+    ],
+    "availability": "In Stock",
+    "totalStock": 60,
+    "variants": [
+      {
+        "size": "S",
+        "colors": [
+          {
+            "name": "Red",
+            "hex": "#FF0000",
+            "stock": 5
+          },
+          {
+            "name": "Blue",
+            "hex": "#0000FF",
+            "stock": 10
+          }
+        ]
+      },
+      {
+        "size": "M",
+        "colors": [
+          {
+            "name": "Red",
+            "hex": "#FF0000",
+            "stock": 5
+          },
+          {
+            "name": "Blue",
+            "hex": "#0000FF",
+            "stock": 10
+          }
+        ]
+      },
+      {
+        "size": "L",
+        "colors": [
+          {
+            "name": "Red",
+            "hex": "#FF0000",
+            "stock": 5
+          },
+          {
+            "name": "Blue",
+            "hex": "#0000FF",
+            "stock": 10
+          }
+        ]
+      },
+      {
+        "size": "XL",
+        "colors": [
+          {
+            "name": "Red",
+            "hex": "#FF0000",
+            "stock": 5
+          },
+          {
+            "name": "Blue",
+            "hex": "#0000FF",
+            "stock": 10
+          }
+        ]
+      }
+    ],
+    "materialInfo": "Cotton"
+  },
+  {
+    "id": "962c67de-a18a-4be9-8e4d-aac512bfff20",
+    "name": "Women's Jeans 4",
+    "description": "High-quality jeans for everyday fashion.",
+    "price": 148.5,
+    "category": "Women",
+    "subcategory": "Jeans",
+    "primaryImage": "https://res.cloudinary.com/dr38dtcs5/image/upload/v1750183143/product2_dbyvdx.jpg",
+    "additionalImages": [
+      "https://res.cloudinary.com/dr38dtcs5/image/upload/v1750444635/portrait-beautiful-caucasian-smiling-brunette-woman-model-white-blouse-summer-stylish-blue-jeans-with-flowers_fok97t.jpg"
+    ],
+    "availability": "In Stock",
+    "totalStock": 60,
+    "variants": [
+      {
+        "size": "S",
+        "colors": [
+          {
+            "name": "Red",
+            "hex": "#FF0000",
+            "stock": 5
+          },
+          {
+            "name": "Blue",
+            "hex": "#0000FF",
+            "stock": 10
+          }
+        ]
+      },
+      {
+        "size": "M",
+        "colors": [
+          {
+            "name": "Red",
+            "hex": "#FF0000",
+            "stock": 5
+          },
+          {
+            "name": "Blue",
+            "hex": "#0000FF",
+            "stock": 10
+          }
+        ]
+      },
+      {
+        "size": "L",
+        "colors": [
+          {
+            "name": "Red",
+            "hex": "#FF0000",
+            "stock": 5
+          },
+          {
+            "name": "Blue",
+            "hex": "#0000FF",
+            "stock": 10
+          }
+        ]
+      },
+      {
+        "size": "XL",
+        "colors": [
+          {
+            "name": "Red",
+            "hex": "#FF0000",
+            "stock": 5
+          },
+          {
+            "name": "Blue",
+            "hex": "#0000FF",
+            "stock": 10
+          }
+        ]
+      }
+    ],
+    "materialInfo": "Cotton"
+  },
+  {
+    "id": "cb15cc90-1d53-4452-92f1-43bf3ff23a0f",
+    "name": "Women's T-Shirt 1",
+    "description": "High-quality t-shirts for everyday fashion.",
+    "price": 196.0,
+    "category": "Women",
+    "subcategory": "T-Shirts",
+    "primaryImage": "https://res.cloudinary.com/dr38dtcs5/image/upload/v1750444415/beautiful-smiling-brunette-girl-pointing-fingers-your-logo-showing-something-center_oksi8t.jpg",
+    "additionalImages": [],
+    "availability": "In Stock",
+    "totalStock": 60,
+    "variants": [
+      {
+        "size": "S",
+        "colors": [
+          {
+            "name": "Red",
+            "hex": "#FF0000",
+            "stock": 5
+          },
+          {
+            "name": "Blue",
+            "hex": "#0000FF",
+            "stock": 10
+          }
+        ]
+      },
+      {
+        "size": "M",
+        "colors": [
+          {
+            "name": "Red",
+            "hex": "#FF0000",
+            "stock": 5
+          },
+          {
+            "name": "Blue",
+            "hex": "#0000FF",
+            "stock": 10
+          }
+        ]
+      },
+      {
+        "size": "L",
+        "colors": [
+          {
+            "name": "Red",
+            "hex": "#FF0000",
+            "stock": 5
+          },
+          {
+            "name": "Blue",
+            "hex": "#0000FF",
+            "stock": 10
+          }
+        ]
+      },
+      {
+        "size": "XL",
+        "colors": [
+          {
+            "name": "Red",
+            "hex": "#FF0000",
+            "stock": 5
+          },
+          {
+            "name": "Blue",
+            "hex": "#0000FF",
+            "stock": 10
+          }
+        ]
+      }
+    ],
+    "materialInfo": "Cotton"
+  },
+  {
+    "id": "3d1bd259-4c17-4154-bdad-7569d7e0736f",
+    "name": "Women's T-Shirt 2",
+    "description": "High-quality t-shirts for everyday fashion.",
+    "price": 25.0,
+    "category": "Women",
+    "subcategory": "T-Shirts",
+    "primaryImage": "https://res.cloudinary.com/dr38dtcs5/image/upload/v1750444415/beautiful-smiling-brunette-girl-pointing-fingers-your-logo-showing-something-center_oksi8t.jpg",
+    "additionalImages": [],
+    "availability": "In Stock",
+    "totalStock": 60,
+    "variants": [
+      {
+        "size": "S",
+        "colors": [
+          {
+            "name": "Red",
+            "hex": "#FF0000",
+            "stock": 5
+          },
+          {
+            "name": "Blue",
+            "hex": "#0000FF",
+            "stock": 10
+          }
+        ]
+      },
+      {
+        "size": "M",
+        "colors": [
+          {
+            "name": "Red",
+            "hex": "#FF0000",
+            "stock": 5
+          },
+          {
+            "name": "Blue",
+            "hex": "#0000FF",
+            "stock": 10
+          }
+        ]
+      },
+      {
+        "size": "L",
+        "colors": [
+          {
+            "name": "Red",
+            "hex": "#FF0000",
+            "stock": 5
+          },
+          {
+            "name": "Blue",
+            "hex": "#0000FF",
+            "stock": 10
+          }
+        ]
+      },
+      {
+        "size": "XL",
+        "colors": [
+          {
+            "name": "Red",
+            "hex": "#FF0000",
+            "stock": 5
+          },
+          {
+            "name": "Blue",
+            "hex": "#0000FF",
+            "stock": 10
+          }
+        ]
+      }
+    ],
+    "materialInfo": "Cotton"
+  },
+  {
+    "id": "e1b6ca60-e708-4dfc-81d4-97db30ff8839",
+    "name": "Women's T-Shirt 3",
+    "description": "High-quality t-shirts for everyday fashion.",
+    "price": 143.75,
+    "category": "Women",
+    "subcategory": "T-Shirts",
+    "primaryImage": "https://res.cloudinary.com/dr38dtcs5/image/upload/v1750444415/beautiful-smiling-brunette-girl-pointing-fingers-your-logo-showing-something-center_oksi8t.jpg",
+    "additionalImages": [],
+    "availability": "In Stock",
+    "totalStock": 60,
+    "variants": [
+      {
+        "size": "S",
+        "colors": [
+          {
+            "name": "Red",
+            "hex": "#FF0000",
+            "stock": 5
+          },
+          {
+            "name": "Blue",
+            "hex": "#0000FF",
+            "stock": 10
+          }
+        ]
+      },
+      {
+        "size": "M",
+        "colors": [
+          {
+            "name": "Red",
+            "hex": "#FF0000",
+            "stock": 5
+          },
+          {
+            "name": "Blue",
+            "hex": "#0000FF",
+            "stock": 10
+          }
+        ]
+      },
+      {
+        "size": "L",
+        "colors": [
+          {
+            "name": "Red",
+            "hex": "#FF0000",
+            "stock": 5
+          },
+          {
+            "name": "Blue",
+            "hex": "#0000FF",
+            "stock": 10
+          }
+        ]
+      },
+      {
+        "size": "XL",
+        "colors": [
+          {
+            "name": "Red",
+            "hex": "#FF0000",
+            "stock": 5
+          },
+          {
+            "name": "Blue",
+            "hex": "#0000FF",
+            "stock": 10
+          }
+        ]
+      }
+    ],
+    "materialInfo": "Cotton"
+  },
+  {
+    "id": "08a9e1e9-9414-410e-97a6-72ff5d1a869c",
+    "name": "Men's T-Shirt 1",
+    "description": "High-quality t-shirts for everyday fashion.",
+    "price": 215.0,
+    "category": "Men",
+    "subcategory": "T-Shirts",
+    "primaryImage": "https://res.cloudinary.com/dr38dtcs5/image/upload/v1750444338/young-man-showing-ok-gesture-white-t-shirt-looking-confident_ursj6n.jpg",
+    "additionalImages": [],
+    "availability": "In Stock",
+    "totalStock": 60,
+    "variants": [
+      {
+        "size": "S",
+        "colors": [
+          {
+            "name": "Red",
+            "hex": "#FF0000",
+            "stock": 5
+          },
+          {
+            "name": "Blue",
+            "hex": "#0000FF",
+            "stock": 10
+          }
+        ]
+      },
+      {
+        "size": "M",
+        "colors": [
+          {
+            "name": "Red",
+            "hex": "#FF0000",
+            "stock": 5
+          },
+          {
+            "name": "Blue",
+            "hex": "#0000FF",
+            "stock": 10
+          }
+        ]
+      },
+      {
+        "size": "L",
+        "colors": [
+          {
+            "name": "Red",
+            "hex": "#FF0000",
+            "stock": 5
+          },
+          {
+            "name": "Blue",
+            "hex": "#0000FF",
+            "stock": 10
+          }
+        ]
+      },
+      {
+        "size": "XL",
+        "colors": [
+          {
+            "name": "Red",
+            "hex": "#FF0000",
+            "stock": 5
+          },
+          {
+            "name": "Blue",
+            "hex": "#0000FF",
+            "stock": 10
+          }
+        ]
+      }
+    ],
+    "materialInfo": "Cotton"
+  },
+  {
+    "id": "d6296f7f-3ebf-4913-8b50-981ebb7a6216",
+    "name": "Men's T-Shirt 2",
+    "description": "High-quality t-shirts for everyday fashion.",
+    "price": 120.0,
+    "category": "Men",
+    "subcategory": "T-Shirts",
+    "primaryImage": "https://res.cloudinary.com/dr38dtcs5/image/upload/v1750444338/young-man-showing-ok-gesture-white-t-shirt-looking-confident_ursj6n.jpg",
+    "additionalImages": [],
+    "availability": "In Stock",
+    "totalStock": 60,
+    "variants": [
+      {
+        "size": "S",
+        "colors": [
+          {
+            "name": "Red",
+            "hex": "#FF0000",
+            "stock": 5
+          },
+          {
+            "name": "Blue",
+            "hex": "#0000FF",
+            "stock": 10
+          }
+        ]
+      },
+      {
+        "size": "M",
+        "colors": [
+          {
+            "name": "Red",
+            "hex": "#FF0000",
+            "stock": 5
+          },
+          {
+            "name": "Blue",
+            "hex": "#0000FF",
+            "stock": 10
+          }
+        ]
+      },
+      {
+        "size": "L",
+        "colors": [
+          {
+            "name": "Red",
+            "hex": "#FF0000",
+            "stock": 5
+          },
+          {
+            "name": "Blue",
+            "hex": "#0000FF",
+            "stock": 10
+          }
+        ]
+      },
+      {
+        "size": "XL",
+        "colors": [
+          {
+            "name": "Red",
+            "hex": "#FF0000",
+            "stock": 5
+          },
+          {
+            "name": "Blue",
+            "hex": "#0000FF",
+            "stock": 10
+          }
+        ]
+      }
+    ],
+    "materialInfo": "Cotton"
+  },
+  {
+    "id": "29a106f2-fd64-47ab-a166-e23a7293e646",
+    "name": "Men's T-Shirt 3",
+    "description": "High-quality t-shirts for everyday fashion.",
+    "price": 191.25,
+    "category": "Men",
+    "subcategory": "T-Shirts",
+    "primaryImage": "https://res.cloudinary.com/dr38dtcs5/image/upload/v1750444338/young-man-showing-ok-gesture-white-t-shirt-looking-confident_ursj6n.jpg",
+    "additionalImages": [],
+    "availability": "In Stock",
+    "totalStock": 60,
+    "variants": [
+      {
+        "size": "S",
+        "colors": [
+          {
+            "name": "Red",
+            "hex": "#FF0000",
+            "stock": 5
+          },
+          {
+            "name": "Blue",
+            "hex": "#0000FF",
+            "stock": 10
+          }
+        ]
+      },
+      {
+        "size": "M",
+        "colors": [
+          {
+            "name": "Red",
+            "hex": "#FF0000",
+            "stock": 5
+          },
+          {
+            "name": "Blue",
+            "hex": "#0000FF",
+            "stock": 10
+          }
+        ]
+      },
+      {
+        "size": "L",
+        "colors": [
+          {
+            "name": "Red",
+            "hex": "#FF0000",
+            "stock": 5
+          },
+          {
+            "name": "Blue",
+            "hex": "#0000FF",
+            "stock": 10
+          }
+        ]
+      },
+      {
+        "size": "XL",
+        "colors": [
+          {
+            "name": "Red",
+            "hex": "#FF0000",
+            "stock": 5
+          },
+          {
+            "name": "Blue",
+            "hex": "#0000FF",
+            "stock": 10
+          }
+        ]
+      }
+    ],
+    "materialInfo": "Cotton"
+  },
+  {
+    "id": "da10d58d-bdff-4611-9562-9d744e4b6b65",
+    "name": "Men's T-Shirt 4",
+    "description": "High-quality t-shirts for everyday fashion.",
+    "price": 139.0,
+    "category": "Men",
+    "subcategory": "T-Shirts",
+    "primaryImage": "https://res.cloudinary.com/dr38dtcs5/image/upload/v1750444338/young-man-showing-ok-gesture-white-t-shirt-looking-confident_ursj6n.jpg",
+    "additionalImages": [],
+    "availability": "In Stock",
+    "totalStock": 60,
+    "variants": [
+      {
+        "size": "S",
+        "colors": [
+          {
+            "name": "Red",
+            "hex": "#FF0000",
+            "stock": 5
+          },
+          {
+            "name": "Blue",
+            "hex": "#0000FF",
+            "stock": 10
+          }
+        ]
+      },
+      {
+        "size": "M",
+        "colors": [
+          {
+            "name": "Red",
+            "hex": "#FF0000",
+            "stock": 5
+          },
+          {
+            "name": "Blue",
+            "hex": "#0000FF",
+            "stock": 10
+          }
+        ]
+      },
+      {
+        "size": "L",
+        "colors": [
+          {
+            "name": "Red",
+            "hex": "#FF0000",
+            "stock": 5
+          },
+          {
+            "name": "Blue",
+            "hex": "#0000FF",
+            "stock": 10
+          }
+        ]
+      },
+      {
+        "size": "XL",
+        "colors": [
+          {
+            "name": "Red",
+            "hex": "#FF0000",
+            "stock": 5
+          },
+          {
+            "name": "Blue",
+            "hex": "#0000FF",
+            "stock": 10
+          }
+        ]
+      }
+    ],
+    "materialInfo": "Cotton"
+  },
+  {
+    "id": "a5cc1a50-ca41-402f-b89b-6048df2f667c",
+    "name": "Men's T-Shirt 5",
+    "description": "High-quality t-shirts for everyday fashion.",
+    "price": 419.25,
+    "category": "Men",
+    "subcategory": "T-Shirts",
+    "primaryImage": "https://res.cloudinary.com/dr38dtcs5/image/upload/v1750444338/young-man-showing-ok-gesture-white-t-shirt-looking-confident_ursj6n.jpg",
+    "additionalImages": [],
+    "availability": "In Stock",
+    "totalStock": 60,
+    "variants": [
+      {
+        "size": "S",
+        "colors": [
+          {
+            "name": "Red",
+            "hex": "#FF0000",
+            "stock": 5
+          },
+          {
+            "name": "Blue",
+            "hex": "#0000FF",
+            "stock": 10
+          }
+        ]
+      },
+      {
+        "size": "M",
+        "colors": [
+          {
+            "name": "Red",
+            "hex": "#FF0000",
+            "stock": 5
+          },
+          {
+            "name": "Blue",
+            "hex": "#0000FF",
+            "stock": 10
+          }
+        ]
+      },
+      {
+        "size": "L",
+        "colors": [
+          {
+            "name": "Red",
+            "hex": "#FF0000",
+            "stock": 5
+          },
+          {
+            "name": "Blue",
+            "hex": "#0000FF",
+            "stock": 10
+          }
+        ]
+      },
+      {
+        "size": "XL",
+        "colors": [
+          {
+            "name": "Red",
+            "hex": "#FF0000",
+            "stock": 5
+          },
+          {
+            "name": "Blue",
+            "hex": "#0000FF",
+            "stock": 10
+          }
+        ]
+      }
+    ],
+    "materialInfo": "Cotton"
+  },
+  {
+    "id": "d28a4518-63af-43ab-8cad-0fe5501a1fbf",
+    "name": "Men's Jeans 1",
+    "description": "High-quality jeans for everyday fashion.",
+    "price": 101.0,
+    "category": "Men",
+    "subcategory": "Jeans",
+    "primaryImage": "https://res.cloudinary.com/dr38dtcs5/image/upload/v1750183147/product4_zhy5sg.jpg",
+    "additionalImages": [
+      "https://res.cloudinary.com/dr38dtcs5/image/upload/v1750444499/portrait-handsome-confident-stylish-hipster-lambersexual-modelman-dressed-jacket-jeans-fashion-male-posing-studio-near-white-wall_uwo8h6.jpg"
+    ],
+    "availability": "In Stock",
+    "totalStock": 60,
+    "variants": [
+      {
+        "size": "S",
+        "colors": [
+          {
+            "name": "Red",
+            "hex": "#FF0000",
+            "stock": 5
+          },
+          {
+            "name": "Blue",
+            "hex": "#0000FF",
+            "stock": 10
+          }
+        ]
+      },
+      {
+        "size": "M",
+        "colors": [
+          {
+            "name": "Red",
+            "hex": "#FF0000",
+            "stock": 5
+          },
+          {
+            "name": "Blue",
+            "hex": "#0000FF",
+            "stock": 10
+          }
+        ]
+      },
+      {
+        "size": "L",
+        "colors": [
+          {
+            "name": "Red",
+            "hex": "#FF0000",
+            "stock": 5
+          },
+          {
+            "name": "Blue",
+            "hex": "#0000FF",
+            "stock": 10
+          }
+        ]
+      },
+      {
+        "size": "XL",
+        "colors": [
+          {
+            "name": "Red",
+            "hex": "#FF0000",
+            "stock": 5
+          },
+          {
+            "name": "Blue",
+            "hex": "#0000FF",
+            "stock": 10
+          }
+        ]
+      }
+    ],
+    "materialInfo": "Cotton"
+  },
+  {
+    "id": "fc034cb5-8e7f-43a5-9c84-d96b9f31390c",
+    "name": "Men's Jeans 2",
+    "description": "High-quality jeans for everyday fashion.",
+    "price": 272.0,
+    "category": "Men",
+    "subcategory": "Jeans",
+    "primaryImage": "https://res.cloudinary.com/dr38dtcs5/image/upload/v1750183147/product4_zhy5sg.jpg",
+    "additionalImages": [
+      "https://res.cloudinary.com/dr38dtcs5/image/upload/v1750444499/portrait-handsome-confident-stylish-hipster-lambersexual-modelman-dressed-jacket-jeans-fashion-male-posing-studio-near-white-wall_uwo8h6.jpg"
+    ],
+    "availability": "In Stock",
+    "totalStock": 60,
+    "variants": [
+      {
+        "size": "S",
+        "colors": [
+          {
+            "name": "Red",
+            "hex": "#FF0000",
+            "stock": 5
+          },
+          {
+            "name": "Blue",
+            "hex": "#0000FF",
+            "stock": 10
+          }
+        ]
+      },
+      {
+        "size": "M",
+        "colors": [
+          {
+            "name": "Red",
+            "hex": "#FF0000",
+            "stock": 5
+          },
+          {
+            "name": "Blue",
+            "hex": "#0000FF",
+            "stock": 10
+          }
+        ]
+      },
+      {
+        "size": "L",
+        "colors": [
+          {
+            "name": "Red",
+            "hex": "#FF0000",
+            "stock": 5
+          },
+          {
+            "name": "Blue",
+            "hex": "#0000FF",
+            "stock": 10
+          }
+        ]
+      },
+      {
+        "size": "XL",
+        "colors": [
+          {
+            "name": "Red",
+            "hex": "#FF0000",
+            "stock": 5
+          },
+          {
+            "name": "Blue",
+            "hex": "#0000FF",
+            "stock": 10
+          }
+        ]
+      }
+    ],
+    "materialInfo": "Cotton"
+  },
+  {
+    "id": "c7121fd0-d2c6-44f5-9323-a36820b4a822",
+    "name": "Men's Jeans 3",
+    "description": "High-quality jeans for everyday fashion.",
+    "price": 105.75,
+    "category": "Men",
+    "subcategory": "Jeans",
+    "primaryImage": "https://res.cloudinary.com/dr38dtcs5/image/upload/v1750183147/product4_zhy5sg.jpg",
+    "additionalImages": [
+      "https://res.cloudinary.com/dr38dtcs5/image/upload/v1750444499/portrait-handsome-confident-stylish-hipster-lambersexual-modelman-dressed-jacket-jeans-fashion-male-posing-studio-near-white-wall_uwo8h6.jpg"
+    ],
+    "availability": "In Stock",
+    "totalStock": 60,
+    "variants": [
+      {
+        "size": "S",
+        "colors": [
+          {
+            "name": "Red",
+            "hex": "#FF0000",
+            "stock": 5
+          },
+          {
+            "name": "Blue",
+            "hex": "#0000FF",
+            "stock": 10
+          }
+        ]
+      },
+      {
+        "size": "M",
+        "colors": [
+          {
+            "name": "Red",
+            "hex": "#FF0000",
+            "stock": 5
+          },
+          {
+            "name": "Blue",
+            "hex": "#0000FF",
+            "stock": 10
+          }
+        ]
+      },
+      {
+        "size": "L",
+        "colors": [
+          {
+            "name": "Red",
+            "hex": "#FF0000",
+            "stock": 5
+          },
+          {
+            "name": "Blue",
+            "hex": "#0000FF",
+            "stock": 10
+          }
+        ]
+      },
+      {
+        "size": "XL",
+        "colors": [
+          {
+            "name": "Red",
+            "hex": "#FF0000",
+            "stock": 5
+          },
+          {
+            "name": "Blue",
+            "hex": "#0000FF",
+            "stock": 10
+          }
+        ]
+      }
+    ],
+    "materialInfo": "Cotton"
+  },
+  {
+    "id": "662ee73c-9a1d-46ce-ab48-35b205574107",
+    "name": "Men's Jacket 1",
+    "description": "High-quality jackets for everyday fashion.",
+    "price": 352.75,
+    "category": "Men",
+    "subcategory": "Jackets",
+    "primaryImage": "https://res.cloudinary.com/dr38dtcs5/image/upload/v1750183147/product4_zhy5sg.jpg",
+    "additionalImages": [
+      "https://res.cloudinary.com/dr38dtcs5/image/upload/v1750444499/portrait-handsome-confident-stylish-hipster-lambersexual-modelman-dressed-jacket-jeans-fashion-male-posing-studio-near-white-wall_uwo8h6.jpg"
+    ],
+    "availability": "In Stock",
+    "totalStock": 60,
+    "variants": [
+      {
+        "size": "S",
+        "colors": [
+          {
+            "name": "Red",
+            "hex": "#FF0000",
+            "stock": 5
+          },
+          {
+            "name": "Blue",
+            "hex": "#0000FF",
+            "stock": 10
+          }
+        ]
+      },
+      {
+        "size": "M",
+        "colors": [
+          {
+            "name": "Red",
+            "hex": "#FF0000",
+            "stock": 5
+          },
+          {
+            "name": "Blue",
+            "hex": "#0000FF",
+            "stock": 10
+          }
+        ]
+      },
+      {
+        "size": "L",
+        "colors": [
+          {
+            "name": "Red",
+            "hex": "#FF0000",
+            "stock": 5
+          },
+          {
+            "name": "Blue",
+            "hex": "#0000FF",
+            "stock": 10
+          }
+        ]
+      },
+      {
+        "size": "XL",
+        "colors": [
+          {
+            "name": "Red",
+            "hex": "#FF0000",
+            "stock": 5
+          },
+          {
+            "name": "Blue",
+            "hex": "#0000FF",
+            "stock": 10
+          }
+        ]
+      }
+    ],
+    "materialInfo": "Cotton"
+  },
+  {
+    "id": "2cf0e7a0-7e0f-49b9-8f87-9576e71a04a4",
+    "name": "Men's Jacket 2",
+    "description": "High-quality jackets for everyday fashion.",
+    "price": 53.5,
+    "category": "Men",
+    "subcategory": "Jackets",
+    "primaryImage": "https://res.cloudinary.com/dr38dtcs5/image/upload/v1750183147/product4_zhy5sg.jpg",
+    "additionalImages": [
+      "https://res.cloudinary.com/dr38dtcs5/image/upload/v1750444499/portrait-handsome-confident-stylish-hipster-lambersexual-modelman-dressed-jacket-jeans-fashion-male-posing-studio-near-white-wall_uwo8h6.jpg"
+    ],
+    "availability": "In Stock",
+    "totalStock": 60,
+    "variants": [
+      {
+        "size": "S",
+        "colors": [
+          {
+            "name": "Red",
+            "hex": "#FF0000",
+            "stock": 5
+          },
+          {
+            "name": "Blue",
+            "hex": "#0000FF",
+            "stock": 10
+          }
+        ]
+      },
+      {
+        "size": "M",
+        "colors": [
+          {
+            "name": "Red",
+            "hex": "#FF0000",
+            "stock": 5
+          },
+          {
+            "name": "Blue",
+            "hex": "#0000FF",
+            "stock": 10
+          }
+        ]
+      },
+      {
+        "size": "L",
+        "colors": [
+          {
+            "name": "Red",
+            "hex": "#FF0000",
+            "stock": 5
+          },
+          {
+            "name": "Blue",
+            "hex": "#0000FF",
+            "stock": 10
+          }
+        ]
+      },
+      {
+        "size": "XL",
+        "colors": [
+          {
+            "name": "Red",
+            "hex": "#FF0000",
+            "stock": 5
+          },
+          {
+            "name": "Blue",
+            "hex": "#0000FF",
+            "stock": 10
+          }
+        ]
+      }
+    ],
+    "materialInfo": "Cotton"
+  },
+  {
+    "id": "2e785bc7-f419-43cd-a0b9-50f668b7fd32",
+    "name": "Child Clothing 1",
+    "description": "High-quality t-shirts for everyday fashion.",
+    "price": 44.0,
+    "category": "Child",
+    "subcategory": "T-Shirts",
+    "primaryImage": "https://res.cloudinary.com/dr38dtcs5/image/upload/v1750444811/pleased-little-caucasian-girl-with-purple-party-hat-isolated-white-wall-with-copy-space_mhr3wv.jpg",
+    "additionalImages": [
+      "https://res.cloudinary.com/dr38dtcs5/image/upload/v1750444882/girl-hoodie-skateboard_svhsky.jpg",
+      "https://res.cloudinary.com/dr38dtcs5/image/upload/v1750444703/full-shot-girl-studio-with-skateboard_vw2weh.jpg"
+    ],
+    "availability": "In Stock",
+    "totalStock": 60,
+    "variants": [
+      {
+        "size": "S",
+        "colors": [
+          {
+            "name": "Red",
+            "hex": "#FF0000",
+            "stock": 5
+          },
+          {
+            "name": "Blue",
+            "hex": "#0000FF",
+            "stock": 10
+          }
+        ]
+      },
+      {
+        "size": "M",
+        "colors": [
+          {
+            "name": "Red",
+            "hex": "#FF0000",
+            "stock": 5
+          },
+          {
+            "name": "Blue",
+            "hex": "#0000FF",
+            "stock": 10
+          }
+        ]
+      },
+      {
+        "size": "L",
+        "colors": [
+          {
+            "name": "Red",
+            "hex": "#FF0000",
+            "stock": 5
+          },
+          {
+            "name": "Blue",
+            "hex": "#0000FF",
+            "stock": 10
+          }
+        ]
+      },
+      {
+        "size": "XL",
+        "colors": [
+          {
+            "name": "Red",
+            "hex": "#FF0000",
+            "stock": 5
+          },
+          {
+            "name": "Blue",
+            "hex": "#0000FF",
+            "stock": 10
+          }
+        ]
+      }
+    ],
+    "materialInfo": "Cotton"
+  },
+  {
+    "id": "a8c59994-0846-4abe-8296-a45acb2966a4",
+    "name": "Child Clothing 2",
+    "description": "High-quality t-shirts for everyday fashion.",
+    "price": 148.5,
+    "category": "Child",
+    "subcategory": "T-Shirts",
+    "primaryImage": "https://res.cloudinary.com/dr38dtcs5/image/upload/v1750444811/pleased-little-caucasian-girl-with-purple-party-hat-isolated-white-wall-with-copy-space_mhr3wv.jpg",
+    "additionalImages": [
+      "https://res.cloudinary.com/dr38dtcs5/image/upload/v1750444882/girl-hoodie-skateboard_svhsky.jpg",
+      "https://res.cloudinary.com/dr38dtcs5/image/upload/v1750444703/full-shot-girl-studio-with-skateboard_vw2weh.jpg"
+    ],
+    "availability": "In Stock",
+    "totalStock": 60,
+    "variants": [
+      {
+        "size": "S",
+        "colors": [
+          {
+            "name": "Red",
+            "hex": "#FF0000",
+            "stock": 5
+          },
+          {
+            "name": "Blue",
+            "hex": "#0000FF",
+            "stock": 10
+          }
+        ]
+      },
+      {
+        "size": "M",
+        "colors": [
+          {
+            "name": "Red",
+            "hex": "#FF0000",
+            "stock": 5
+          },
+          {
+            "name": "Blue",
+            "hex": "#0000FF",
+            "stock": 10
+          }
+        ]
+      },
+      {
+        "size": "L",
+        "colors": [
+          {
+            "name": "Red",
+            "hex": "#FF0000",
+            "stock": 5
+          },
+          {
+            "name": "Blue",
+            "hex": "#0000FF",
+            "stock": 10
+          }
+        ]
+      },
+      {
+        "size": "XL",
+        "colors": [
+          {
+            "name": "Red",
+            "hex": "#FF0000",
+            "stock": 5
+          },
+          {
+            "name": "Blue",
+            "hex": "#0000FF",
+            "stock": 10
+          }
+        ]
+      }
+    ],
+    "materialInfo": "Cotton"
+  },
+  {
+    "id": "f94d4b86-4445-4880-834b-9607727a3a03",
+    "name": "Child Clothing 3",
+    "description": "High-quality t-shirts for everyday fashion.",
+    "price": 234.0,
+    "category": "Child",
+    "subcategory": "T-Shirts",
+    "primaryImage": "https://res.cloudinary.com/dr38dtcs5/image/upload/v1750444811/pleased-little-caucasian-girl-with-purple-party-hat-isolated-white-wall-with-copy-space_mhr3wv.jpg",
+    "additionalImages": [
+      "https://res.cloudinary.com/dr38dtcs5/image/upload/v1750444882/girl-hoodie-skateboard_svhsky.jpg",
+      "https://res.cloudinary.com/dr38dtcs5/image/upload/v1750444703/full-shot-girl-studio-with-skateboard_vw2weh.jpg"
+    ],
+    "availability": "In Stock",
+    "totalStock": 60,
+    "variants": [
+      {
+        "size": "S",
+        "colors": [
+          {
+            "name": "Red",
+            "hex": "#FF0000",
+            "stock": 5
+          },
+          {
+            "name": "Blue",
+            "hex": "#0000FF",
+            "stock": 10
+          }
+        ]
+      },
+      {
+        "size": "M",
+        "colors": [
+          {
+            "name": "Red",
+            "hex": "#FF0000",
+            "stock": 5
+          },
+          {
+            "name": "Blue",
+            "hex": "#0000FF",
+            "stock": 10
+          }
+        ]
+      },
+      {
+        "size": "L",
+        "colors": [
+          {
+            "name": "Red",
+            "hex": "#FF0000",
+            "stock": 5
+          },
+          {
+            "name": "Blue",
+            "hex": "#0000FF",
+            "stock": 10
+          }
+        ]
+      },
+      {
+        "size": "XL",
+        "colors": [
+          {
+            "name": "Red",
+            "hex": "#FF0000",
+            "stock": 5
+          },
+          {
+            "name": "Blue",
+            "hex": "#0000FF",
+            "stock": 10
+          }
+        ]
+      }
+    ],
+    "materialInfo": "Cotton"
+  },
+  {
+    "id": "53a58d39-b884-4356-a6d1-179b5c389cdf",
+    "name": "Child Clothing 4",
+    "description": "High-quality t-shirts for everyday fashion.",
+    "price": 443.0,
+    "category": "Child",
+    "subcategory": "T-Shirts",
+    "primaryImage": "https://res.cloudinary.com/dr38dtcs5/image/upload/v1750444811/pleased-little-caucasian-girl-with-purple-party-hat-isolated-white-wall-with-copy-space_mhr3wv.jpg",
+    "additionalImages": [
+      "https://res.cloudinary.com/dr38dtcs5/image/upload/v1750444882/girl-hoodie-skateboard_svhsky.jpg",
+      "https://res.cloudinary.com/dr38dtcs5/image/upload/v1750444703/full-shot-girl-studio-with-skateboard_vw2weh.jpg"
+    ],
+    "availability": "In Stock",
+    "totalStock": 60,
+    "variants": [
+      {
+        "size": "S",
+        "colors": [
+          {
+            "name": "Red",
+            "hex": "#FF0000",
+            "stock": 5
+          },
+          {
+            "name": "Blue",
+            "hex": "#0000FF",
+            "stock": 10
+          }
+        ]
+      },
+      {
+        "size": "M",
+        "colors": [
+          {
+            "name": "Red",
+            "hex": "#FF0000",
+            "stock": 5
+          },
+          {
+            "name": "Blue",
+            "hex": "#0000FF",
+            "stock": 10
+          }
+        ]
+      },
+      {
+        "size": "L",
+        "colors": [
+          {
+            "name": "Red",
+            "hex": "#FF0000",
+            "stock": 5
+          },
+          {
+            "name": "Blue",
+            "hex": "#0000FF",
+            "stock": 10
+          }
+        ]
+      },
+      {
+        "size": "XL",
+        "colors": [
+          {
+            "name": "Red",
+            "hex": "#FF0000",
+            "stock": 5
+          },
+          {
+            "name": "Blue",
+            "hex": "#0000FF",
+            "stock": 10
+          }
+        ]
+      }
+    ],
+    "materialInfo": "Cotton"
+  },
+  {
+    "id": "a6879abd-a913-47e2-820b-b06060dabdee",
+    "name": "Child Clothing 5",
+    "description": "High-quality t-shirts for everyday fashion.",
+    "price": 77.25,
+    "category": "Child",
+    "subcategory": "T-Shirts",
+    "primaryImage": "https://res.cloudinary.com/dr38dtcs5/image/upload/v1750444811/pleased-little-caucasian-girl-with-purple-party-hat-isolated-white-wall-with-copy-space_mhr3wv.jpg",
+    "additionalImages": [
+      "https://res.cloudinary.com/dr38dtcs5/image/upload/v1750444882/girl-hoodie-skateboard_svhsky.jpg",
+      "https://res.cloudinary.com/dr38dtcs5/image/upload/v1750444703/full-shot-girl-studio-with-skateboard_vw2weh.jpg"
+    ],
+    "availability": "In Stock",
+    "totalStock": 60,
+    "variants": [
+      {
+        "size": "S",
+        "colors": [
+          {
+            "name": "Red",
+            "hex": "#FF0000",
+            "stock": 5
+          },
+          {
+            "name": "Blue",
+            "hex": "#0000FF",
+            "stock": 10
+          }
+        ]
+      },
+      {
+        "size": "M",
+        "colors": [
+          {
+            "name": "Red",
+            "hex": "#FF0000",
+            "stock": 5
+          },
+          {
+            "name": "Blue",
+            "hex": "#0000FF",
+            "stock": 10
+          }
+        ]
+      },
+      {
+        "size": "L",
+        "colors": [
+          {
+            "name": "Red",
+            "hex": "#FF0000",
+            "stock": 5
+          },
+          {
+            "name": "Blue",
+            "hex": "#0000FF",
+            "stock": 10
+          }
+        ]
+      },
+      {
+        "size": "XL",
+        "colors": [
+          {
+            "name": "Red",
+            "hex": "#FF0000",
+            "stock": 5
+          },
+          {
+            "name": "Blue",
+            "hex": "#0000FF",
+            "stock": 10
+          }
+        ]
+      }
+    ],
+    "materialInfo": "Cotton"
+  },
+  {
+    "id": "b728384f-587e-45e8-b61f-0d0c9c6d3bc0",
+    "name": "Child Shoes 1",
+    "description": "High-quality shoes for everyday fashion.",
+    "price": 338.5,
+    "category": "Child",
+    "subcategory": "Shoes",
+    "primaryImage": "https://res.cloudinary.com/dr38dtcs5/image/upload/v1750444989/men-shoes_osvgvd.jpg",
+    "additionalImages": [
+      "https://res.cloudinary.com/dr38dtcs5/image/upload/v1750444277/fashion-shoes-sneakers_t4xmsx.jpg",
+      "https://res.cloudinary.com/dr38dtcs5/image/upload/v1750180796/cld-sample-5.jpg"
+    ],
+    "availability": "In Stock",
+    "totalStock": 60,
+    "variants": [
+      {
+        "size": "7",
+        "colors": [
+          {
+            "name": "Red",
+            "hex": "#FF0000",
+            "stock": 5
+          },
+          {
+            "name": "Blue",
+            "hex": "#0000FF",
+            "stock": 10
+          }
+        ]
+      },
+      {
+        "size": "8",
+        "colors": [
+          {
+            "name": "Red",
+            "hex": "#FF0000",
+            "stock": 5
+          },
+          {
+            "name": "Blue",
+            "hex": "#0000FF",
+            "stock": 10
+          }
+        ]
+      },
+      {
+        "size": "9",
+        "colors": [
+          {
+            "name": "Red",
+            "hex": "#FF0000",
+            "stock": 5
+          },
+          {
+            "name": "Blue",
+            "hex": "#0000FF",
+            "stock": 10
+          }
+        ]
+      },
+      {
+        "size": "10",
+        "colors": [
+          {
+            "name": "Red",
+            "hex": "#FF0000",
+            "stock": 5
+          },
+          {
+            "name": "Blue",
+            "hex": "#0000FF",
+            "stock": 10
+          }
+        ]
+      }
+    ],
+    "materialInfo": "Cotton"
+  },
+  {
+    "id": "b24d99d8-98f9-4c8a-8bb2-736953cb1c3d",
+    "name": "Child Shoes 2",
+    "description": "High-quality shoes for everyday fashion.",
+    "price": 120.0,
+    "category": "Child",
+    "subcategory": "Shoes",
+    "primaryImage": "https://res.cloudinary.com/dr38dtcs5/image/upload/v1750444989/men-shoes_osvgvd.jpg",
+    "additionalImages": [
+      "https://res.cloudinary.com/dr38dtcs5/image/upload/v1750444277/fashion-shoes-sneakers_t4xmsx.jpg",
+      "https://res.cloudinary.com/dr38dtcs5/image/upload/v1750180796/cld-sample-5.jpg"
+    ],
+    "availability": "In Stock",
+    "totalStock": 60,
+    "variants": [
+      {
+        "size": "7",
+        "colors": [
+          {
+            "name": "Red",
+            "hex": "#FF0000",
+            "stock": 5
+          },
+          {
+            "name": "Blue",
+            "hex": "#0000FF",
+            "stock": 10
+          }
+        ]
+      },
+      {
+        "size": "8",
+        "colors": [
+          {
+            "name": "Red",
+            "hex": "#FF0000",
+            "stock": 5
+          },
+          {
+            "name": "Blue",
+            "hex": "#0000FF",
+            "stock": 10
+          }
+        ]
+      },
+      {
+        "size": "9",
+        "colors": [
+          {
+            "name": "Red",
+            "hex": "#FF0000",
+            "stock": 5
+          },
+          {
+            "name": "Blue",
+            "hex": "#0000FF",
+            "stock": 10
+          }
+        ]
+      },
+      {
+        "size": "10",
+        "colors": [
+          {
+            "name": "Red",
+            "hex": "#FF0000",
+            "stock": 5
+          },
+          {
+            "name": "Blue",
+            "hex": "#0000FF",
+            "stock": 10
+          }
+        ]
+      }
+    ],
+    "materialInfo": "Cotton"
+  },
+  {
+    "id": "16f39315-10b6-4614-9a59-b305a25aa9f3",
+    "name": "Child Shoes 3",
+    "description": "High-quality shoes for everyday fashion.",
+    "price": 200.75,
+    "category": "Child",
+    "subcategory": "Shoes",
+    "primaryImage": "https://res.cloudinary.com/dr38dtcs5/image/upload/v1750444989/men-shoes_osvgvd.jpg",
+    "additionalImages": [
+      "https://res.cloudinary.com/dr38dtcs5/image/upload/v1750444277/fashion-shoes-sneakers_t4xmsx.jpg",
+      "https://res.cloudinary.com/dr38dtcs5/image/upload/v1750180796/cld-sample-5.jpg"
+    ],
+    "availability": "In Stock",
+    "totalStock": 60,
+    "variants": [
+      {
+        "size": "7",
+        "colors": [
+          {
+            "name": "Red",
+            "hex": "#FF0000",
+            "stock": 5
+          },
+          {
+            "name": "Blue",
+            "hex": "#0000FF",
+            "stock": 10
+          }
+        ]
+      },
+      {
+        "size": "8",
+        "colors": [
+          {
+            "name": "Red",
+            "hex": "#FF0000",
+            "stock": 5
+          },
+          {
+            "name": "Blue",
+            "hex": "#0000FF",
+            "stock": 10
+          }
+        ]
+      },
+      {
+        "size": "9",
+        "colors": [
+          {
+            "name": "Red",
+            "hex": "#FF0000",
+            "stock": 5
+          },
+          {
+            "name": "Blue",
+            "hex": "#0000FF",
+            "stock": 10
+          }
+        ]
+      },
+      {
+        "size": "10",
+        "colors": [
+          {
+            "name": "Red",
+            "hex": "#FF0000",
+            "stock": 5
+          },
+          {
+            "name": "Blue",
+            "hex": "#0000FF",
+            "stock": 10
+          }
+        ]
+      }
+    ],
+    "materialInfo": "Cotton"
+  },
+  {
+    "id": "34b68a6e-43b4-4cda-8282-3f09a1092783",
+    "name": "Child Shoes 4",
+    "description": "High-quality shoes for everyday fashion.",
+    "price": 77.25,
+    "category": "Child",
+    "subcategory": "Shoes",
+    "primaryImage": "https://res.cloudinary.com/dr38dtcs5/image/upload/v1750444989/men-shoes_osvgvd.jpg",
+    "additionalImages": [
+      "https://res.cloudinary.com/dr38dtcs5/image/upload/v1750444277/fashion-shoes-sneakers_t4xmsx.jpg",
+      "https://res.cloudinary.com/dr38dtcs5/image/upload/v1750180796/cld-sample-5.jpg"
+    ],
+    "availability": "In Stock",
+    "totalStock": 60,
+    "variants": [
+      {
+        "size": "7",
+        "colors": [
+          {
+            "name": "Red",
+            "hex": "#FF0000",
+            "stock": 5
+          },
+          {
+            "name": "Blue",
+            "hex": "#0000FF",
+            "stock": 10
+          }
+        ]
+      },
+      {
+        "size": "8",
+        "colors": [
+          {
+            "name": "Red",
+            "hex": "#FF0000",
+            "stock": 5
+          },
+          {
+            "name": "Blue",
+            "hex": "#0000FF",
+            "stock": 10
+          }
+        ]
+      },
+      {
+        "size": "9",
+        "colors": [
+          {
+            "name": "Red",
+            "hex": "#FF0000",
+            "stock": 5
+          },
+          {
+            "name": "Blue",
+            "hex": "#0000FF",
+            "stock": 10
+          }
+        ]
+      },
+      {
+        "size": "10",
+        "colors": [
+          {
+            "name": "Red",
+            "hex": "#FF0000",
+            "stock": 5
+          },
+          {
+            "name": "Blue",
+            "hex": "#0000FF",
+            "stock": 10
+          }
+        ]
+      }
+    ],
+    "materialInfo": "Cotton"
+  },
+  {
+    "id": "4a750b2f-f9bd-4461-97cc-e322aa685305",
+    "name": "Child Shoes 5",
+    "description": "High-quality shoes for everyday fashion.",
+    "price": 191.25,
+    "category": "Child",
+    "subcategory": "Shoes",
+    "primaryImage": "https://res.cloudinary.com/dr38dtcs5/image/upload/v1750444989/men-shoes_osvgvd.jpg",
+    "additionalImages": [
+      "https://res.cloudinary.com/dr38dtcs5/image/upload/v1750444277/fashion-shoes-sneakers_t4xmsx.jpg",
+      "https://res.cloudinary.com/dr38dtcs5/image/upload/v1750180796/cld-sample-5.jpg"
+    ],
+    "availability": "In Stock",
+    "totalStock": 60,
+    "variants": [
+      {
+        "size": "7",
+        "colors": [
+          {
+            "name": "Red",
+            "hex": "#FF0000",
+            "stock": 5
+          },
+          {
+            "name": "Blue",
+            "hex": "#0000FF",
+            "stock": 10
+          }
+        ]
+      },
+      {
+        "size": "8",
+        "colors": [
+          {
+            "name": "Red",
+            "hex": "#FF0000",
+            "stock": 5
+          },
+          {
+            "name": "Blue",
+            "hex": "#0000FF",
+            "stock": 10
+          }
+        ]
+      },
+      {
+        "size": "9",
+        "colors": [
+          {
+            "name": "Red",
+            "hex": "#FF0000",
+            "stock": 5
+          },
+          {
+            "name": "Blue",
+            "hex": "#0000FF",
+            "stock": 10
+          }
+        ]
+      },
+      {
+        "size": "10",
+        "colors": [
+          {
+            "name": "Red",
+            "hex": "#FF0000",
+            "stock": 5
+          },
+          {
+            "name": "Blue",
+            "hex": "#0000FF",
+            "stock": 10
+          }
+        ]
+      }
+    ],
+    "materialInfo": "Cotton"
+  }
+]
