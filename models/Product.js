@@ -46,7 +46,7 @@ const productSchema = new mongoose.Schema(
             required: true,
         },
 
-        extraImages: {
+        additionalImages: {
             type: [String],
             validate: [(val) => val.length <= 3, "Maximum of 3 extra images allowed"],
         },

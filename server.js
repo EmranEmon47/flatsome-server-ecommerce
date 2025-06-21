@@ -3,12 +3,15 @@ import dotenv from 'dotenv';
 import connectDB from './config/db.js';
 import uploadRoutes from './routes/uploadRoute.js';
 import productRoutes from './routes/productRoutes.js'; // Import product routes
+import cors from 'cors';
 
 dotenv.config();
 connectDB(); // ⬅️ Connect to MongoDB
 
 const app = express();
 app.use(express.json());
+
+app.use(cors());
 
 app.get('/', (req, res) => {
     res.send('Test API is running...');
