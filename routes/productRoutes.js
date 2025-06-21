@@ -1,30 +1,24 @@
 import express from "express";
-import Product from "../models/Product.js";
+
+// Import product controller functions
+
+import {
+    getProducts,
+    getProductById,
+    createProduct,
+    updateProduct,
+    deleteProduct,
+} from "../controllers/productController.js";
+
 
 const router = express.Router();
 
-// GET /api/products - Get all products
-router.get("/", async (req, res) => {
-    try {
-        const products = await Product.find({});
-        res.json(products);
-    } catch (error) {
-        res.status(500).json({ message: "Server error fetching products" });
-    }
-});
+router.get("/", getProducts); // All products
+router.get("/:id", getProductById); // Single product
+router.post("/", createProduct); // Create product
+router.put("/:id", updateProduct); // Update product
+router.delete("/:id", deleteProduct); // Delete product
 
-// GET /api/products/:id - Get a product by ID
-router.get("/:id", async (req, res) => {
-    try {
-        const product = await Product.findById(req.params.id);
-        if (product) {
-            res.json(product);
-        } else {
-            res.status(404).json({ message: "Product not found" });
-        }
-    } catch (error) {
-        res.status(500).json({ message: "Server error fetching product" });
-    }
-});
+
 
 export default router;
