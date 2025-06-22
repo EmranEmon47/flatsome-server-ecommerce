@@ -1,12 +1,25 @@
 import mongoose from "mongoose";
 
-const variantSchema = new mongoose.Schema({
-    size: String, // e.g., 'S', 'M', 'L' or '8', '9', '10'
-    color: String, // e.g., 'Red'
-    hexCode: String, // e.g., '#FF0000'
-    stock: { type: Number, default: 0 },
-});
+// Define the nested color schema
+const colorSchema = new mongoose.Schema(
+    {
+        name: { type: String, required: true },      // e.g., 'Red'
+        hex: { type: String, required: true },       // e.g., '#FF0000'
+        stock: { type: Number, default: 0 },         // stock per color per size
+    },
+    { _id: false } // Don't auto-generate _id for nested subdocs
+);
 
+// Define variant schema with size and nested colors
+const variantSchema = new mongoose.Schema(
+    {
+        size: { type: String, required: true },       // e.g., '7', '8', etc.
+        colors: { type: [colorSchema], required: true },
+    },
+    { _id: false }
+);
+
+// Final product schema
 const productSchema = new mongoose.Schema(
     {
         name: { type: String, required: true },
@@ -25,10 +38,7 @@ const productSchema = new mongoose.Schema(
             enum: ["T-Shirts", "Jeans", "Shoes", "Jackets", "Tops"],
         },
 
-        material: {
-            type: String,
-            default: "Cotton",
-        },
+        materialInfo: { type: String, default: "Cotton" },
 
         availability: {
             type: String,
@@ -36,22 +46,19 @@ const productSchema = new mongoose.Schema(
             default: "In Stock",
         },
 
-        totalStock: {
-            type: Number,
-            required: true,
-        },
+        totalStock: { type: Number, required: true },
 
-        primaryImage: {
-            type: String,
-            required: true,
-        },
+        primaryImage: { type: String, required: true },
 
         additionalImages: {
             type: [String],
-            validate: [(val) => val.length <= 3, "Maximum of 3 extra images allowed"],
+            validate: [
+                (val) => val.length <= 3,
+                "Maximum of 3 extra images allowed",
+            ],
         },
 
-        variants: [variantSchema],
+        variants: { type: [variantSchema], required: true },
     },
     {
         timestamps: true,
