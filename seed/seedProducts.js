@@ -43,3 +43,5 @@ const seedProducts = async () => {
 
 await connectDB();
 await seedProducts();
+
+// node seed/seedProducts.js  seed script
