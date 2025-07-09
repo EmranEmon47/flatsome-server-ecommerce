@@ -26,7 +26,7 @@ app.use('/api/products', productRoutes);
 app.use('/api/users', userRoutes);      // ✅ User profile
 app.use('/api/admin', adminRoutes);     // ✅ Admin-only access
 
-const PORT = process.env.PORT || 7000;
+const PORT = process.env.PORT || 5000;
 app.listen(PORT, () =>
     console.log(`🚀 Server running on http://localhost:${PORT}`)
 );

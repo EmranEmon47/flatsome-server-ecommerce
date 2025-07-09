@@ -6,13 +6,32 @@ import requireAdmin from '../middleware/requireAdmin.js';
 
 const router = express.Router();
 
-// Admin: Get all users
-router.get('/users', verifyToken, requireAdmin, async (req, res) => {
-    const users = await User.find();
-    res.json(users);
+// ✅ Get current user's MongoDB data (used for frontend admin route protection)
+router.get('/users/me', verifyToken, async (req, res) => {
+    try {
+        const user = await User.findOne({ uid: req.user.uid }).select('-__v');
+        if (!user) {
+            return res.status(404).json({ message: 'User not found' });
+        }
+        res.json(user);
+    } catch (error) {
+        console.error('Error checking admin user:', error);
+        res.status(500).json({ message: 'Server error' });
+    }
 });
 
-// Admin: Change user role
+// ✅ Admin: Get all users
+router.get('/users', verifyToken, requireAdmin, async (req, res) => {
+    try {
+        const users = await User.find().select('-__v');
+        res.json(users);
+    } catch (error) {
+        console.error('Error fetching users:', error);
+        res.status(500).json({ message: 'Server error' });
+    }
+});
+
+// ✅ Admin: Change user role
 router.put('/users/:id/role', verifyToken, requireAdmin, async (req, res) => {
     const { role } = req.body;
 
@@ -20,20 +39,25 @@ router.put('/users/:id/role', verifyToken, requireAdmin, async (req, res) => {
         return res.status(400).json({ message: 'Invalid role' });
     }
 
-    const updatedUser = await User.findByIdAndUpdate(
-        req.params.id,
-        { role },
-        { new: true }
-    );
+    try {
+        const updatedUser = await User.findByIdAndUpdate(
+            req.params.id,
+            { role },
+            { new: true }
+        ).select('-__v');
 
-    if (!updatedUser) {
-        return res.status(404).json({ message: 'User not found' });
+        if (!updatedUser) {
+            return res.status(404).json({ message: 'User not found' });
+        }
+
+        res.json(updatedUser);
+    } catch (error) {
+        console.error('Role update error:', error);
+        res.status(500).json({ message: 'Server error' });
     }
-
-    res.json(updatedUser);
 });
 
-// DELETE any user (admin only)
+// ✅ Admin: Delete user
 router.delete('/users/:id', verifyToken, requireAdmin, async (req, res) => {
     try {
         const deleted = await User.findByIdAndDelete(req.params.id);
@@ -41,8 +65,8 @@ router.delete('/users/:id', verifyToken, requireAdmin, async (req, res) => {
             return res.status(404).json({ message: 'User not found' });
         }
         res.json({ message: 'User deleted by admin successfully.' });
-    } catch (err) {
-        console.error('Admin delete error:', err);
+    } catch (error) {
+        console.error('Delete user error:', error);
         res.status(500).json({ message: 'Failed to delete user' });
     }
 });
