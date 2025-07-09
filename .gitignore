@@ -3,4 +3,4 @@ node_modules/
 .vscode
 
 # firebase config
-config/firebaseServiceAccountKey.json
+config/flatsome-ecommerce-firebase-adminsdk-fbsvc-adb3c0c35e.json
