@@ -1,7 +1,7 @@
 import mongoose from "mongoose";
 
 const orderSchema = new mongoose.Schema({
-    uid: { type: String, required: true }, // Firebase UID
+    uid: { type: String, required: true },          // Firebase UID
     email: { type: String, required: true },
     firstName: String,
     lastName: String,
@@ -13,6 +13,7 @@ const orderSchema = new mongoose.Schema({
             quantity: Number,
             selectedColor: String,
             selectedSize: String,
+            primaryImage: String,
         },
     ],
     shippingInfo: {
@@ -31,11 +32,21 @@ const orderSchema = new mongoose.Schema({
         },
     },
     totalAmount: Number,
-    status: {
+
+    // Payment status field
+    paymentStatus: {
         type: String,
-        enum: ["Pending", "Shipped", "Delivered"],
+        enum: ["Pending", "Paid", "Failed"],
         default: "Pending",
     },
+
+    // Delivery status field (optional)
+    deliveryStatus: {
+        type: String,
+        enum: ["Not Shipped", "Shipped", "Delivered"],
+        default: "Not Shipped",
+    },
+
     createdAt: { type: Date, default: Date.now },
 });
 
