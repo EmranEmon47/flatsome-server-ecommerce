@@ -8,6 +8,7 @@ import uploadRoutes from './routes/uploadRoute.js';
 import productRoutes from './routes/productRoutes.js';
 import userRoutes from './routes/userRoutes.js';
 import adminRoutes from './routes/adminRoutes.js'; // ✅ NEW
+import orderRoutes from './routes/orderRoutes.js'; // ✅ Admin-only access
 
 dotenv.config();
 connectDB();
@@ -24,7 +25,9 @@ app.get('/', (req, res) => {
 app.use('/api/upload', uploadRoutes);
 app.use('/api/products', productRoutes);
 app.use('/api/users', userRoutes);      // ✅ User profile
-app.use('/api/admin', adminRoutes);     // ✅ Admin-only access
+app.use('/api/admin', adminRoutes);
+
+app.use("/api/orders", orderRoutes);     // ✅ Admin-only access
 
 const PORT = process.env.PORT || 5000;
 app.listen(PORT, () =>
