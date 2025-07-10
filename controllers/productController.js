@@ -1,6 +1,6 @@
 import Product from '../models/Product.js';
 
-// @desc    Get all products
+// @desc    Get all products (public)
 // @route   GET /api/products
 // @access  Public
 export const getProducts = async (req, res) => {
@@ -13,14 +13,13 @@ export const getProducts = async (req, res) => {
     }
 };
 
-// @desc    Get single product by ID
+// @desc    Get single product by ID (public)
 // @route   GET /api/products/:id
 // @access  Public
 export const getProductById = async (req, res) => {
     try {
         const { id } = req.params;
 
-        // Check for valid MongoDB ObjectId
         if (!id.match(/^[0-9a-fA-F]{24}$/)) {
             return res.status(400).json({ message: "Invalid product ID format" });
         }
@@ -38,10 +37,33 @@ export const getProductById = async (req, res) => {
     }
 };
 
+// @desc    Create new product (admin only)
+// @route   POST /api/products
+// @access  Admin
+export const createProduct = async (req, res) => {
+    try {
+        if (req.user?.role !== "admin") {
+            return res.status(403).json({ message: "Access denied. Admins only." });
+        }
 
-// Update a product
+        const newProduct = new Product(req.body);
+        const savedProduct = await newProduct.save();
+        res.status(201).json(savedProduct);
+    } catch (error) {
+        console.error("❌ Error creating product:", error.message);
+        res.status(500).json({ message: "Server error creating product" });
+    }
+};
+
+// @desc    Update product (admin only)
+// @route   PUT /api/products/:id
+// @access  Admin
 export const updateProduct = async (req, res) => {
     try {
+        if (req.user?.role !== "admin") {
+            return res.status(403).json({ message: "Access denied. Admins only." });
+        }
+
         const { id } = req.params;
 
         if (!id.match(/^[0-9a-fA-F]{24}$/)) {
@@ -64,21 +86,15 @@ export const updateProduct = async (req, res) => {
     }
 };
 
-// ✅ POST route to create new product
-export const createProduct = async (req, res) => {
-    try {
-        const newProduct = new Product(req.body);
-        const savedProduct = await newProduct.save();
-        res.status(201).json(savedProduct);
-    } catch (error) {
-        console.error("❌ Error creating product:", error.message);
-        res.status(500).json({ message: "Server error creating product" });
-    }
-};
-
-// Delete a product
+// @desc    Delete product (admin only)
+// @route   DELETE /api/products/:id
+// @access  Admin
 export const deleteProduct = async (req, res) => {
     try {
+        if (req.user?.role !== "admin") {
+            return res.status(403).json({ message: "Access denied. Admins only." });
+        }
+
         const { id } = req.params;
 
         if (!id.match(/^[0-9a-fA-F]{24}$/)) {
@@ -97,4 +113,3 @@ export const deleteProduct = async (req, res) => {
         res.status(500).json({ message: "Server error deleting product" });
     }
 };
-

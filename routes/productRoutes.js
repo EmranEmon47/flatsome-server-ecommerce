@@ -1,24 +1,22 @@
-import express from "express";
-
-// Import product controller functions
-
+import express from 'express';
 import {
     getProducts,
     getProductById,
     createProduct,
     updateProduct,
     deleteProduct,
-} from "../controllers/productController.js";
+} from '../controllers/productController.js';
 
+import verifyToken from '../middleware/verifyFirebaseToken.js';
+import requireAdmin from '../middleware/requireAdmin.js';
 
 const router = express.Router();
 
-router.get("/", getProducts); // All products
-router.get("/:id", getProductById); // Single product
-router.post("/", createProduct); // Create product
-router.put("/:id", updateProduct); // Update product
-router.delete("/:id", deleteProduct); // Delete product
+router.get('/', getProducts); // public
+router.get('/:id', getProductById); // public
 
-
+router.post('/', verifyToken, requireAdmin, createProduct); // admin
+router.put('/:id', verifyToken, requireAdmin, updateProduct); // admin
+router.delete('/:id', verifyToken, requireAdmin, deleteProduct); // admin
 
 export default router;
