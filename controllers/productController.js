@@ -1,5 +1,6 @@
 import Product from '../models/Product.js';
 
+
 // @desc    Get all products (public)
 // @route   GET /api/products
 // @access  Public
@@ -54,6 +55,7 @@ export const createProduct = async (req, res) => {
         res.status(500).json({ message: "Server error creating product" });
     }
 };
+
 
 // @desc    Update product (admin only)
 // @route   PUT /api/products/:id
