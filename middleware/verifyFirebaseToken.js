@@ -12,6 +12,7 @@ const verifyFirebaseToken = async (req, res, next) => {
         req.firebaseUser = decoded;
 
         let user = await User.findOne({ uid: decoded.uid });
+
         if (!user) {
             user = await User.create({
                 uid: decoded.uid,
@@ -19,12 +20,20 @@ const verifyFirebaseToken = async (req, res, next) => {
                 name: decoded.name || decoded.displayName || "Unnamed User",
             });
         } else {
-            // Optionally update if changed
-            if (user.email !== decoded.email || user.name !== (decoded.name || decoded.displayName)) {
+            // Only update email if changed, and name ONLY IF it's missing
+            let updated = false;
+
+            if (user.email !== decoded.email) {
                 user.email = decoded.email;
-                user.name = decoded.name || decoded.displayName || user.name;
-                await user.save();
+                updated = true;
             }
+
+            if (!user.name || user.name === "Unnamed User") {
+                user.name = decoded.name || decoded.displayName || user.name;
+                updated = true;
+            }
+
+            if (updated) await user.save();
         }
 
         req.user = user;
