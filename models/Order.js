@@ -1,28 +1,35 @@
 import mongoose from "mongoose";
 
 const orderSchema = new mongoose.Schema({
-    uid: { type: String, required: true },          // Firebase UID
+    uid: { type: String, required: true },
     email: { type: String, required: true },
     firstName: String,
     lastName: String,
-    cartItems: [
-        {
-            id: String,
-            name: String,
-            price: Number,
-            quantity: Number,
-            selectedColor: String,
-            selectedSize: String,
-            primaryImage: String,
-        },
-    ],
+
+    cartItems: {
+        type: [
+            {
+                id: String,
+                name: String,
+                price: Number,
+                quantity: Number,
+                selectedColor: String,
+                selectedSize: String,
+                primaryImage: String,
+            }
+        ],
+        validate: v => Array.isArray(v) && v.length > 0,
+        required: true
+    },
+
     shippingInfo: {
-        address: String,
+        address: { type: String, required: true },
         apartment: String,
         postcode: String,
-        city: String,
-        phone: String,
+        city: { type: String, required: true },
+        phone: { type: String, required: true },
         notes: String,
+        termsAccepted: { type: Boolean, required: true },
         alternate: {
             address: String,
             apartment: String,
@@ -31,23 +38,20 @@ const orderSchema = new mongoose.Schema({
             phone: String,
         },
     },
-    totalAmount: Number,
 
-    // Payment status field
+    totalAmount: { type: Number, required: true },
+
     paymentStatus: {
         type: String,
         enum: ["Pending", "Paid", "Failed"],
         default: "Pending",
     },
 
-    // Delivery status field (optional)
     deliveryStatus: {
         type: String,
         enum: ["Not Shipped", "Shipped", "Delivered"],
         default: "Not Shipped",
     },
-
-    createdAt: { type: Date, default: Date.now },
-});
+}, { timestamps: true });
 
 export default mongoose.model("Order", orderSchema);

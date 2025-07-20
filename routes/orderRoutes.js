@@ -5,6 +5,26 @@ import Order from "../models/Order.js";
 
 const router = express.Router();
 
+// Get a specific order of the logged-in user
+router.get("/my-orders/:id", verifyToken, async (req, res) => {
+    try {
+        const order = await Order.findOne({
+            _id: req.params.id,
+            uid: req.user.uid,
+        });
+
+        if (!order) {
+            return res.status(404).json({ message: "Order not found or unauthorized." });
+        }
+
+        res.json(order);
+    } catch (err) {
+        console.error("Error fetching specific user order:", err);
+        res.status(500).json({ message: "Failed to fetch order." });
+    }
+});
+
+
 // Save a new order (user/admin)
 router.post("/", verifyToken, async (req, res) => {
     try {
@@ -116,5 +136,20 @@ router.patch("/:id/delivery-status", verifyToken, requireAdmin, async (req, res)
         res.status(500).json({ message: "Server error." });
     }
 });
+
+// Admin delete any order
+router.delete("/:id", verifyToken, requireAdmin, async (req, res) => {
+    try {
+        const deleted = await Order.findByIdAndDelete(req.params.id);
+        if (!deleted) {
+            return res.status(404).json({ message: "Order not found." });
+        }
+        res.json({ message: "Order deleted successfully." });
+    } catch (err) {
+        console.error("Error deleting order:", err);
+        res.status(500).json({ message: "Failed to delete order." });
+    }
+});
+
 
 export default router;
