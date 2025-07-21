@@ -84,12 +84,11 @@ router.get("/", verifyToken, requireAdmin, async (req, res) => {
     }
 });
 
-// Update payment status of an order (user or admin)
 router.patch("/:id/payment-status", verifyToken, async (req, res) => {
     try {
-        const { status } = req.body;
+        const { paymentStatus } = req.body;
 
-        if (!["Paid", "Failed"].includes(status)) {
+        if (!["Paid", "Failed"].includes(paymentStatus)) {
             return res.status(400).json({ message: "Invalid status value." });
         }
 
@@ -98,12 +97,11 @@ router.patch("/:id/payment-status", verifyToken, async (req, res) => {
             return res.status(404).json({ message: "Order not found." });
         }
 
-        // Only order owner or admin can update payment status
         if (order.uid !== req.user.uid && req.user.role !== "admin") {
             return res.status(403).json({ message: "Not authorized." });
         }
 
-        order.paymentStatus = status;
+        order.paymentStatus = paymentStatus;
         await order.save();
 
         res.json({ message: "Payment status updated", order });
@@ -112,6 +110,7 @@ router.patch("/:id/payment-status", verifyToken, async (req, res) => {
         res.status(500).json({ message: "Server error." });
     }
 });
+
 
 // Update delivery status of an order (admin only)
 router.patch("/:id/delivery-status", verifyToken, requireAdmin, async (req, res) => {
